@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Title for the project -->
+        <title>{{title}}</title>
+        <!-- End of Title -->
+
+        <!-- meta tags for project -->
+        <meta charset="utf-8">
+        {{#each metatags}}
+        <meta name="{{this.key}}" content="{{this.value}}">
+        {{/each}}
+
+        {{#each ogtags}}
+        <meta property="{{this.key}}" content="{{this.value}}">
+        {{/each}}
+
+        {{#each socialtags}}
+        <meta proptery="{{this.key}}" content="{{this.value}}">
+        {{/each}}
+
+        <!-- DO NOT REMOVE -->
+        <meta name="viewport" content="{{metaViewPort}}" />
+        <!-- End of meta -->
+
+        <!-- stylesheet for project -->
+
+        {{#if useTwelveColGrid}}
+            <link rel="stylesheet" href="https://assets.macysassets.com/dyn_img/creativepages/macys-base-12.css">
+        {{else}}
+            {{#if use1200px}}
+                <link rel="stylesheet" href="/ce/assets/assets/css/macys-base-1200.css">
+            {{else}}
+                <link rel="stylesheet" href="https://www.macys.com/styles/min/mcom/base/macys-base.css">
+            {{/if}}
+        {{/if}}
+
+        {{#each cssFiles}}
+            <link rel="stylesheet" href="{{imageUrl}}{{this}}">
+        {{/each}}
+
+
+        {{#if desktop}}
+            {{#with canonicalCampaign}}
+                <link rel="canonical" href="https://www.macys.com{{this}}">
+            {{/with}}
+        {{else}}
+            {{#if mobile}}
+                {{#if app}}
+                {{else}}
+                    {{#with canonicalCampaign}}
+                        <link rel="canonical" href="https://www.macys.com{{this}}">
+                    {{/with}}
+                {{/if}}
+            {{/if}}
+        {{/if}}
+
+        {{!-- Begin Universal Header --}}
+        {{#unless suppressForEmbeddedExperience}}
+            <link href="{{assetsServer}}/page/header-footer-wgl/latest/css/header-footer-wgl.csg.css?weekNow={{cacheBustingTimestamp}}" rel="stylesheet">
+            <link href="{{assetsServer}}/page/header-footer-wgl/latest/css/header-footer-wgl.mcom-header-footer.css?weekNow={{cacheBustingTimestamp}}" rel="stylesheet">
+        {{/unless}}
+        {{!-- End Universal Header --}}
+
+        <!-- End of stylesheet -->
+        <script type="text/javascript" src="/CE/cemew/scripts/lib/jquery.js"></script>
+
+        {{#each jsFiles}}
+            <script type="text/javascript" src="{{imageUrl}}{{this}}"></script>
+        {{/each}}
+
+        <!-- DO NOT REMOVE This is required to load required library -->
+        {{>libSupport}}
+
+        <!--Script-->
+        <script type="text/javascript">
+            CEconfig={
+                coremetricsValue:{
+                    pageType:"{{coremetrics.pageType}}",
+                    pageId:"{{coremetrics.pageId}}",
+                    categoryID:"{{coremetrics.categoryID}}",
+                    customCmPageId:"{{coremetrics.customCmPageId}}",
+                    overridePageType: "{{coremetrics.overridePageType}}",
+                    formhandler:"{{coremetrics.formhandler}}"
+                }
+            }
+        </script>
+        <!-- end of script tag -->
+        {{> tag-manager-head}}
+    </head>
+
+    <body>
+
+        {{> tag-manager-body}}
+
+    <!-- DO NOT REMOVE below tag-->
+        {{#unless suppressForEmbeddedExperience}}
+            <!-- partial template for header.-->
+            {{> deviceHeader}}
+        {{/unless}}
+        <!-- End of template-->
+
+        <main>
+            <div id="bd" class="primaryContainer">
+                {{{body}}}
+            </div>
+        </main>
+        {{#unless suppressForEmbeddedExperience}}
+            <!-- partial template for footer.-->
+            {{> deviceFooter}}
+        {{/unless}}
+        <section>
+            <div id="m-footer-copy"></div>
+        <!-- End of template-->
+        </section>
+        
+        {{#unless suppressForEmbeddedExperience}}
+        <script src="{{assetsServer}}/page/header-footer-wgl/latest/js/common.bundle.js?weekNow={{cacheBustingTimestamp}}"></script>
+        <script src="{{assetsServer}}/page/header-footer-wgl/latest/js/header-footer-wgl.mcom-header-footer.js?weekNow={{cacheBustingTimestamp}}"></script>
+        <script>
+            //HC:Popup window script that is dynamic and will regain focus
+            // Modified link system to use this one script and pass parameters
+            // for lighter page weight and more flexibility.
+            window.pop = function(u,n,f){
+                var d = "default";
+                var sf = "directories,location,menubar,resizable,scrollbars,status,toolbar";
+                if (!n){n = d}
+                if (!f){f = sf}
+                pw = window.open(u,n,f);
+                pw.focus();
+            };
+        </script>
+        {{/unless}}
+    </body>
+</html>

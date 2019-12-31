@@ -1,0 +1,124 @@
+<script type="text/javascript">
+    {{{env_variable}}}
+    var CEconfig={};
+</script>
+
+{{#if useImpSdk}}
+     <script src="https://secure-netstorage.macys.com/social/sdk/2.0.3/public/modules/imp-sdk.js"></script>
+ {{/if}}
+
+{{#if desktop}}
+    <style>
+    {{#if use1200px}}
+        #bd .row {
+            width: 1200px;
+        }
+        #bd .row .row {
+            width: auto;
+        }
+        @media only screen and (max-width: 1279px) {
+            #bd .row {
+                width: 100%;
+                padding: 0 3.125%;
+            }
+        }
+        @media only screen and (max-width: 1023px) {
+            #bd .row.ce-mobile-full {
+                width: 100%;
+                padding: 0;
+            }
+            #bd .row.ce-mobile-collapse .column,
+            #bd .row.ce-mobile-collapse .columns {
+                padding: 0;
+            }
+        }
+        #bd .row.ce-full-width {
+            width: 100%;
+            padding: 0;
+        }
+    {{else}}
+        #bd {
+            width: 960px;
+            margin: 0 auto;
+        }
+        /*Removes 1px padding from side of columns
+        that causes images to display slightly lower quality*/
+        #bd .column, #bd .columns {
+            padding: 0 !important;
+        }
+    {{/if}}
+
+    </style>
+
+     <script type="text/javascript">
+        var macysConfig = {
+            headerTarget: "#HeaderContainer",
+            footerTarget: "#FooterContainer",
+            fontBaseUrl: "//www.macys.com",
+            hostURL: location.hostname,
+            fontRootRelativePath: "/euf/assets/themes/standard/fonts/"
+        }
+    </script>
+
+    <script src="/CE/cemew/scripts/lib/require.js" data-main="/CE/cemew/DesktopHeaderFooterLoader"></script>
+
+{{else}}
+    <style>
+        #m-footer-links-simple li a{
+            font-size: 16px;
+        }
+        .fobMore.children {
+            padding-left: 10px;
+        }
+        
+        /* Begin Styles for Mobile Menu Content Shift */
+        body.nav-visible main {
+            -webkit-transform: translate3d(200px, 0, 0);
+            -moz-transform: translate3d(200px, 0, 0);
+            -ms-transform: translate3d(200px, 0, 0);
+            -o-transform: translate3d(200px, 0, 0);
+            transform: translate3d(200px, 0, 0);
+        }
+
+        header ~ main {
+            -webkit-transition: -webkit-transform .3s ease-in-out;
+            -moz-transition: -webkit-transform .3s ease-in-out;
+            transition: -webkit-transform .3s ease-in-out;
+            position: relative
+        }
+        /* End Styles for Mobile Menu Content Shift */
+
+    {{#if use1200px}}
+        #bd .row {
+            width: 1200px;
+        }
+        #bd .row .row {
+            width: auto;
+        }
+        @media only screen and (max-width: 1279px) {
+            #bd .row {
+                width: 100%;
+                padding: 0 3.125%;
+            }
+        }
+        @media only screen and (max-width: 1023px) {
+            #bd .row.ce-mobile-full {
+                width: 100%;
+                padding: 0;
+            }
+            #bd .row.ce-mobile-collapse .column,
+            #bd .row.ce-mobile-collapse .columns {
+                padding: 0;
+            }
+        }
+        #bd .row.ce-full-width {
+            width: 100%;
+            padding: 0;
+        }
+    {{/if}}
+    </style>
+
+    {{!-- Need to load this script before all else --}}
+
+    <script src="/CE/cemew/scripts/lib/require.js" data-main="/CE/cemew/mobileHeaderFooterLoader"></script>
+{{/if}}

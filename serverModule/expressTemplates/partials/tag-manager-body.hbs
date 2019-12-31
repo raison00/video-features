@@ -1,0 +1,19 @@
+<script type="text/javascript">
+    var utag_data = utag_data || {};
+    {{#if pageType}}
+        utag_data.page_type = '{{pageType}}';
+    {{/if}}
+    {{#if pageName}}
+        utag_data.page_name = '{{pageName}}';
+    {{/if}}
+    (function () {
+        var a = '//tags.tiqcdn.com/utag/macys/main/{{TagMgrEnv}}/utag.js',
+                c = 'script',
+                d = document.createElement(c);
+        d.src = a;
+        d.type = 'text/java' + c;
+        d.async = true;
+        a = document.getElementsByTagName(c)[0];
+        a.parentNode.insertBefore(d, a);
+    })();
+</script>

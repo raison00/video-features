@@ -1,0 +1,113 @@
+<div id="videoFeaturesWrapper" class="row">
+       <h4 class="section-header">Customizable CTA Mute Button, Muted Sound, Autoplay &amp; Looped</h4>
+       <ul style="margin-left:50px; width:80%; text-align: left;">
+         <h5>This is a custom CE video player.   It has several features:</h5> 
+           <li>Automatically starts playing on page load</li>
+           <li>Automatically loops [x] times: Please ensure Bandwidth and Budget are approved to loop video</li>
+           <li>Sound muted on start</li>
+           <li>Custom sound mute button toggles sound</li>
+           <li>Video keeps playing whether sound is on/off</li>
+           <li>User can stop video looping with an overlaid task bar</li>
+       </ul>
+
+  <div class="row collapse">
+                <div class="small-16 column">
+    
+
+        <!-- begin VIDEO VIDEO VIDEO section -->
+        <p id="play_pause" width="100px" height="100px" onclick="muteVideo()"></p>
+        <div>
+            <div style="padding-top: 54%;"><iframe id="homepageVideo" src="//players.brightcove.net/24953835001/HkzJ5n6Ovb_default/index.html?videoId=5526931144001&muted" allowfullscreen webkitallowfullscreen mozallowfullscreen style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;"></iframe></div>
+        </div>
+
+        <!-- END VIDEO VIDEO VIDEO section -->
+
+
+
+
+
+    </div>
+</div>
+</div>
+<style>
+    #bd {
+        width: 100% !important;
+        overflow-x: hidden;
+    }
+    
+    #videoFeaturesWrapper {
+        width: 960px;
+        height: 100%;
+        z-index: -12;
+        margin-top: 3.5em;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    #videoEmbedAutoPlay {
+        width: 960px;
+        height: 540px;
+        margin: 0 auto;
+    }
+    
+    .video-js {
+        width: 100%;
+        max-width: 960px;
+        height: 100%;
+    }
+    
+    .subheader-sidenote {
+        font: 400 2.5em/125% 'Sacramento', Helvetica, sans-serif;
+        color: #333;
+        background-color: white;
+    }
+    
+    #play_pause {
+        cursor: pointer;
+        position: absolute;
+        top: 15%;
+        left: 92%;
+        width: 75px;
+        height: 75px;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        z-index: 44;
+        opacity: .64;
+        background-image: url('https://www.macys.com/dyn_img/homepage/2017/08/15/ce-audio-volume-75.png');
+    }
+</style>
+
+
+<script>
+    var theProtocol = location.protocol,
+        theURL = theProtocol + '//players.brightcove.net',
+        iframeTag = document.querySelector('iframe'),
+        win = iframeTag.contentWindow;
+
+
+    function muteVideo() {
+        win.postMessage('toggleMute', theURL);
+        //alert( "muting should occur... ")
+    }
+    
+    (function($) {
+        var playPause = getElementById('play_pause');
+        // Toggle
+        var toggle = false;
+        playPause.click(function() {
+            if (toggle) {
+                play();
+                toggle = false;
+            } else {
+                pause();
+                toggle = true;
+            }
+        });
+        // Play
+        function play() {};
+        // Pause
+        function pause() {};
+    }(jQuery));
+
+    
+</script>

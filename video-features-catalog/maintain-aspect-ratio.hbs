@@ -1,0 +1,127 @@
+
+   
+
+   
+   <div id="AspectRatioPage" class="row perimeter">
+    <div class="small-16 columns">
+        <h4 class="section-header">Understanding Aspect Ratio </h4>
+        <p>The ratio has to be well defined to make shapes fit into different and distinct mediums, such as various desktop sizes, mobile tablet sizes and various mobile phone sizes.</p>
+        <p>Here, you can see how the video maintains its aspect ratio while being scaled larger and smaller on the page. The height of the video will scale in relation to the width. We can not stretch the height without impacting the width.</p>
+        <h2>Maintaining Aspect Ratio is Required</h2>
+        <h5>I created this to best illustrate what aspect ratio looks like for a 16:9 video. This was created in css.</h5>
+        <p>We must maintain aspect ratio of our video content at Macys. This is what the aspect ratio looks like for our 16:9 video. I have intentionally muted all videos.</p>
+
+        <div class="container">
+            <div class="video-box sixteen-nine">
+                <div class="content">
+                    <div style="position: relative; display: block; max-width:960px;">
+                        <div style="padding-top: 56.25%;"><iframe src="//players.brightcove.net/24953835001/e87f3d8a-35ea-478a-a4a7-70d26d18f6c7_default/index.html?videoId=5547123859001&muted" allowfullscreen webkitallowfullscreen mozallowfullscreen style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;"></iframe></div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+        </div>
+ </div>
+        <div class="divider"></div>
+   
+      <p>Full-Width video in Aspect Ratio</p>
+       <p style="font-size:.92em; text-align:left;margin-left:auto; margin-right:auto;"> We must maintain aspect ratio of our video content at Macys. This is what the aspect ratio looks like for our 16:9 video. I have intentionally muted all videos.</p>
+
+<div class="container">
+    <div class="video-box ">
+        <div class="content">
+            <div style="position: relative; display: block; max-width: 100%;">
+                <div style="padding-top: 56.25%;"><iframe src="//players.brightcove.net/24953835001/r1Lf66yc_default/index.html?videoId=5543754345001&muted" allowfullscreen webkitallowfullscreen mozallowfullscreen style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;">
+    	
+</iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="divider"></div>
+</div>
+
+<style>
+    #bd {
+        width: 100% !important;
+        overflow-x: hidden;
+    }
+    .perimeter {
+        padding:2em;
+        margin-left: 50% !important;
+        margin-right: 50% !important;
+    }
+    #AspectRatioPage {
+        width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+    @import url('https://fonts.googleapis.com/css?family=Bitter');
+    .sixteen-nine {
+        position: relative;
+    }
+    
+    .sixteen-nine:before {
+        display: block;
+        content: " ";
+        width: 100%;
+        padding-top: 56.25%;
+    }
+    
+    .sixteen-nine>.content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    p {
+        margin: 1.5em 0;
+        line-height: 1.5;
+    }
+    
+    
+    hr {
+        border-style: dashed;
+        margin: 2em 0;
+    }
+    
+    .video-box {
+        animation: width 3s infinite alternate;
+        
+    }
+    
+    @keyframes width {
+        0% {
+            width: 15%;
+        }
+         
+        100% {
+            width: 100%;
+        }
+    }
+    
+    .divider {
+        height: 50px;
+    }
+</style>

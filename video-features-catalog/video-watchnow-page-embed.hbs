@@ -1,0 +1,168 @@
+<style>
+
+.videoImg {
+z-index: 12;
+position: relative;
+}
+
+
+
+#watchPerformance_div{
+z-index: 10;
+/*position: absolute;*/
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+opacity: 0;
+width: 960px;
+margin: 0 auto;
+    
+        background-color:orange;
+}
+    .video-js {
+        width: 100%;
+        max-width: 960px;
+        height: 100%;
+        background-color:black;
+    }
+
+
+    .video-padd{
+        padding-top:0;
+        padding-bottom:0;
+    }
+
+
+    @media only screen and (max-width: 640px) {
+        .video-padd {
+            padding-top: 20%;
+            padding-bottom: 20%;
+        }
+    }
+</style>
+
+
+<!-- video section -->
+<div id="basicEmbedButton" class="row" style="height: auto;padding-top:4em;">
+
+
+
+
+
+    <!---------------------------- Performance video ------------------->
+
+
+
+
+    <div class="row bg-mobile">
+        <div class="performance-title text-center small-16 column small-centered">
+             <h4 class="section-header"> Embedding a hidden 16:9 video on the page with a CTA </h4>
+            <div class="show-for-medium-up hide-for-small-only">
+                <img class="videoImg" src="https://www.macys.com/dyn_img/creativepages/performance_13.jpg" alt="the performance">
+            </div>
+            <div class="hide-for-medium-up show-for-small-only">
+                <img class="videoImg" src="https://www.macys.com/dyn_img/creativepages/bhm_mobile_05.jpg" alt="the performance">
+            </div>
+
+            <div class="performance-text text-center small-16 large-16 columns small-centered">
+                <h2 class="hidden">The Performance</h2>
+              
+
+                <a onclick="javascript:cmCreateLinkClickTag(this,'performancewatchnow');javascript:cmCreatePageElementTag('Video Play', 'Static Page: Black History Month');"><button  onclick="watchVideo('5277039082001','watchPerformance','performance');" class="bhm-hover">Watch now</button></a>
+
+
+            </div>
+
+            <div id="watchPerformance_div" class="video-padd"></div>
+
+        </div>
+
+
+    </div>
+
+
+    <!---------------------------- Performance video ends------------------->
+
+
+</div>
+
+
+
+
+
+<script type="text/javascript">
+
+    var myInterviewPlayer,
+            myPerformancePlayer,
+            playerHTML,
+            playerData = {
+                'accountId': '24953835001',
+                'playerId': 'e87f3d8a-35ea-478a-a4a7-70d26d18f6c7'
+            };
+
+
+
+    function addPlayer(vidID,plyrID,secID) {
+        var playerID = plyrID;
+        var sectionId = secID;
+// dynamically build the player video element
+        playerHTML = '<video id=\"' + playerID + '\" data-video-id=\"' + vidID + '\"  data-account=\"' + playerData.accountId + '\" data-player=\"' + playerData.playerId + '\" data-embed=\"default\" class=\"video-js\" controls></video>';
+// inject the player code into the DOM
+        document.getElementById(playerID + "_div").innerHTML = playerHTML;
+// instantiate player
+        bc(document.getElementById(playerID));
+        videojs(playerID).ready(function () {
+            playerID = this;
+            playerID.on('ended', onComplete(playerID,sectionId));
+        });
+    }
+
+
+
+
+    function watchVideo(vidID, plyrID , secID) {
+        var videoId = vidID;
+        var playerId =plyrID;
+        var sectionId = secID;
+        $("#" + playerId + "_div").animate({
+            opacity: 1,
+            "z-index": "14",
+            "position" :"absolute",
+        }, 1000, function () {
+            // Animation complete.
+        });
+
+
+        $("." + sectionId +"-title .videoImg").animate({
+            opacity: 0
+        },1000);
+
+        $("." + sectionId +"-text").animate({
+            opacity: 0
+        },1000);
+
+        addPlayer(videoId,playerId,sectionId);
+
+    }
+
+    function onComplete(plyrID , secID) {
+        var playerId =plyrID;
+        var sectionId = secID;
+        $("#" + playerId + "_div").animate({
+            opacity: 0,
+            "z-index": "10",
+            "position" :"absolute",
+        }, 1000, function () {
+            // Animation complete.
+        });
+        $("." + sectionId + "-title .videoImg").animate({
+            opacity: 1
+        },1000);
+        $("." + sectionId + "-text").animate({
+            opacity: 1
+        },1000);
+    }
+
+</script>
+

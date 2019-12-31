@@ -1,0 +1,537 @@
+
+<div id="videoFeaturesWrapper" class="ce-center">
+    <h1 class="video-section-header"> Video Features Catalog</h1>
+    <h4 class="subheader-sidenote">the magic of sound &amp; motion on macy*s</h4>
+
+    <!-- page navigation -->
+    <div id="primary_nav_wrap">
+        <ul>
+            <li><a href="#Embeds">Video Embeds</a>
+                <ul>
+                    <li><a href="#basicEmbed">Standard Embedded Video 16:9 Brightcove</a></li>
+                    <li><a href="#EmbedYT">Standard: YouTube</a></li>
+                    <li><a href="#Embed43">Standard: 4:3 Brightcove</a></li>
+                     <li><a href="#basicCustomEmbedButton">Custom: Watch Now CTA Button.</a></li>
+                    <li><a href="#EmbedCustom">Custom: Customizable CTA Mute, Paused Sound, Autoplay &amp; Looped 16:9 Brightcove</a></li>
+                </ul>
+            </li>
+            <li><a href="#CEOverlays">Video Overlays</a>
+                <ul>
+                    <li><a href="#CEOverlay">CE-Sitelet-15 Overlay Video 16:9</a></li>
+                    <li><a href="#PIOverlay">CE PI/HP Overlay Video 16:9</a></li>
+                    <li><a href="#CEModal">Coming in 2018: Polaris CE Modal Video 16:9</a></li>
+
+                </ul>
+            </li>
+            <li><a href="#Background">Background &amp; Looping Video</a>
+                <ul>
+                    <li><a href="#FullWidthBackground">Full-Width Background Video</a></li>
+                    <li><a href="#LoopingBackground">Looping Background Video</a></li>
+                    <li><a href="#multi">Multiple Looping Background Videos</a></li>
+
+                </ul>
+            </li>
+            <!--   TO BE ADDED 11/2017
+            <li><a href="#Slideshows">Video Slideshows</a>
+                <ul>
+                    <li><a href="#fullWidthSlideshow">full-width video slideshow</a></li>
+                    <li><a href="#LoopingSlickSlideshow">looping custom slick video slideshow</a></li>
+                    <li><a href="#youTubeSlideshow">looping custom YouTube video slideshow</a></li>
+                </ul>
+            </li>
+            -->
+            <li><a href="#360View">360 View Videos</a>
+                <ul>
+                    <li><a href="#YouTube360">YouTube 360</a></li>
+                    <li><a href="#Facebook360">Facebook 360</a></li>
+                    <li><a href="#Brightcove360">Brightcove 360</a></li>
+                    <li><a href="#JS360">JS 360 </a></li>
+                </ul>
+            </li>
+            <li><a href="#Resources">Resources</a>
+                <ul>
+                    <li><a href="#AspectRatio">Understanding Aspect Ratio</a></li>
+                    <li><a href="#VideoDelivery">General Video Delivery Expectations</a></li>
+                    <li><a href="#DeliveryGuides360">Delivery Guides: 360</a></li>
+                    <li><a href="#ButtonResources">Video Button Resources</a></li>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- page introduction -->
+    <div id="intro">
+        <h2 class="video-section-header"> CE Programmed Video Experiences</h2>
+
+        <p>Here's samples of the various ways CE can work with video on Marketing Content pages. Use the menu above to discover the options for including video on the page.</p>
+        <h4 class="subheader-sidenote">provided for internal terminology alignment</h4>
+        <ul style="margin-left:50px; width:80%; text-align: left; list-style-type: square;">
+            <li><a href="#embeds"><strong class="embolden">Embedded Videos </strong></a>are videos that play on the page right where they are. Creative should be delivered in the proper aspect ratio for best results. All CE video players are created at 16:9 by default and the Standard Embed experience will be applied by default. Custom video experiences require a POC and partnering with CE to schedule the work. </li>
+            <hr class="divider">
+            <li><a href="#OverlayVideo"><strong class="embolden">Overlay Videos </strong></a>require a call-to-action to launch a video into a white transparent layer ontop of the page. The user must close this layer to return to the Macy's shopping experience.</li>
+            <hr class="divider">
+
+            <li><a href="#background"><strong class="embolden">Background Videos </strong></a>are videos where additional content is layered ontop the video on the page. Size, color, motion and duration (looping) also must be considered. Sound can not automatically loop on page load, nor will the autoplay/looping be engaged on mobile. It is againt Apple and Android polices to autoplay video.</li>
+            <hr class="divider">
+            <li><a href="#360"><strong class="embolden">360° Videos </strong></a>are interactive videos where the user can navigate within the image, as if in a 3-dimensional space within the video on the page. Images can be saved to appear as a 360 Video, but must be saved at the correct aspect ratio. CE accepts images and video files saved with the correct meta data. </li>
+            <hr class="divider">
+            <li><strong class="embolden">Pop-Up Videos </strong>display a small video that suddenly "pops up" on the page. It does not obstruct the page content nor its functionality (for this, see Overlay Videos). Pop-Up Videos require a call-to-action to launch in context on the page. This is similar to a thought-bubble that appears over characters in cartoons and live-action, similar to the "Pop-Up Video" VH-1 show of yesterday. Pop-Up videos are generally customizations for campaigns like the Macy's GoGreen campaign. Pop-Up videos are not suggested for the best customer experience, especially for mobile.</li>
+            <hr class="divider">
+            <li><a href="#resources"><strong class="embolden">Resources</strong></a> for requirements and delivery. Terminology alignment.</li>
+            <hr class="divider">
+        </ul>
+        <p class="notification-info ce-center"> All CE Custom and Standard Videos utilize the Brightcove API and Video.js <br>YouTube video experiences are marked as such and are branded with YouTube's red, per their style specs. <br>Macy*s does not host our video: Video <strong>does not </strong>live in Astra. </p>
+    </div>
+    <div class="icon-gen-more-red-huge ce-center"></div>
+
+
+    <!-- begin embed section -->
+
+    <div id="embeds" class="row">
+        <h2 class="video-section-header"> CE Embed Video Experiences</h2>
+
+
+        <div id="basicEmbed" class="row">
+            <h4 class="section-header"> Standard Embedded Video 16:9</h4>
+            <p>This is the easiest implementation of a video on a page. The video can be any width on the page and its height will follow the 16:9 ratio. So, a 960 px wide video will be 540 px high. We cannot distort the video player to fit an out-of-aspect-ratio design. </p>
+
+            <p>This standard player waits for the user to click play before the video starts.</p>
+
+            <p class="notification-info">Use the <a href="#AspectRatio">Resources</a> tab to further explore the <a href="https://calculateaspectratio.com/">aspect ratio of video.</a><br> 16:9 is our standard player ratio. <br>Delivery specs expect a 16:9 video as standard.</p>
+
+            <div class="small-16 columns">
+                <div style="padding-top: 56.25%;margin:0 auto; ">
+                    <iframe src="//players.brightcove.net/24953835001/r1Lf66yc_default/index.html?videoId=5326332667001" allowfullscreen webkitallowfullscreen mozallowfullscreen style=" position: absolute; top: 0px; bottom: 0px; right: 0px; left: 0px; width: 960px; height:540px;"></iframe>
+                </div>
+            </div>
+            <div class="icon-gen-more-red-huge ce-center"></div>
+            <a class="topper" href="#top">top</a>
+        </div>
+        <div id="basicCustomEmbedButton" class="row">
+            <h4 class="section-header"> Custom Play Button on Standard Embedded Video 16:9</h4>
+            <p>This triangular translucent button was requested by Creative in October 2017. Provided for standard implementation.</p>
+            <div class="small-16 columns" style="position: relative; display: block; max-width: 960px;">
+                <div style="padding-top: 56.25%;"><iframe src="//players.brightcove.net/24953835001/rJSHtd6nb_default/index.html?videoId=5630159526001" allowfullscreen webkitallowfullscreen mozallowfullscreen style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;"></iframe></div>
+            </div>
+            <div style="height:60px;"><a class="topper" href="#top">top</a> </div>
+            <div class="icon-gen-more-red-huge ce-center"></div>
+            <div id="EmbedYT" class="row">
+                <div class="small-16 columns">
+                    <h4 class="section-header-yt">Standard Embedded Video: YouTube </h4>
+                    <p><strong>Trolls! </strong>This is an example of an Embedded YouTube video without the end-roll of ads, suggested videos and other off-brand content. This is an example of using 3rd party YouTube accounts and controling the customer exposure to non-macys content. Vendor/Partner in this case was Dreamworks Animation Studio.</p>
+                    <p class="notification-info"> Videos can be hosted on Vendor/Partner's YouTube channel or Macy's Corporate Account. CE does not upload nor have access to Macy's Corporate YouTube Account to modify video settings/content. CE can customize the look/feel of the YouTube player to work with Macy's Branding experience with scheduling. </p>
+                    <!-- Youtube TROLL VIDEO -->
+                    <iframe width="960" height="504" src="https://www.youtube.com/embed/oWgTqLCLE8k?rel=0&start=0&end=201" frameborder="0"></iframe>
+
+                    <!-- END Youtube TROLL VIDEO -->
+
+                    <div class="row collapse" data-row-num="row_05">
+                        <div class="small-16 column">
+                            <img src="//www.macys.com/dyn_img/homepage/2016/10/17_INTL/C6090605_101_05.jpg" width="960" height="49" usemap="#20161031_map5" alt="DreamWorks Trolls copyright 2016 DreamWorks Animation LLC. All Rights Reserved." />
+                        </div>
+                    </div>
+
+                    <ul>
+                        <h4 class="section-header-yt">YouTube Resources</h4>
+                        <li><a href="https://developers.google.com/youtube/player_parameters" target="_blank">YouTube Embedded Players and Player Parameters</a></li>
+                        <li><a href="https://support.google.com/youtube/answer/1722171?hl=en" target="_blank">Recommended upload encoding settings</a></li>
+                        <li><a href="https://developers.google.com/youtube/android/player/" target="_blank">YouTube Android Player API</a></li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+            <div class="icon-gen-more-red-huge ce-center"></div>
+            <div style="height:60px;"><a class="topper" href="#top">top</a> </div>
+            <div id="Embed43" class="row" style="height:710px;">
+
+                <!------------------------  Video ------------------------>
+                {{> video-features-catalog/embed43 }}
+                <!---------------------------- video ends------------------->
+
+                <a class="topper" href="#top">top</a>
+
+            </div>
+            <div class="icon-gen-more-red-huge ce-center"></div>
+            <div style="height:60px;"> </div>
+
+        </div>
+        <h4 class="section-header"> Custom Embed Auto-Play, Looping, Muted Video Player: with External Sound Toggle Button</h4>
+        <p>CE has created a looping video player which autoplays and has muted sound. Special permissions and considerations must be approved to implement this video experience. Bandwidth costs, overages, and ROI must be considered for the best customer experience.</p>
+        <div id="EmbedCustom" class="row">
+            <!--   > video-features-catalog/pause-sound-loop  -->
+            <p>This feature has been developed - but needs a business reason to be implemented by CE. Looping video can heavily tax the customer's bandwidth and Macy's bandwidth. Macy's daily video average does not exceed 100k views. In contrast, Looping video on the Homepage in 2017 received around 2.7 Billion views in a day. </p>
+            <p>Please reach out to confirm autoplay looping video is the best approach for your campaign. This video player is intentionally not available directly on this page.</p>
+            <a href="pause-sound-loop"> please pause this video: looping autoplay muted video player</a>
+        </div>
+        <div class="icon-gen-more-red-huge ce-center macys-red"></div>
+        <div style="height:60px;"><a class="topper" href="#top">top</a> </div>
+
+    </div>
+    <!-- end embed section -->
+
+
+    <!-- begin overlay section -->
+    <div>
+        <div id="OverlayVideo" class="row">
+            <h2 class="video-section-header">Overlay Video Experiences</h2>
+            <p>Once clicking on the Call-to-Action (CTA), the placement of a full-motion video launches on the display screen. The user will need to close the overlay to resume engaging in the page content. The user will not be taken away from the page nor the content. The experience will allow for the user to view the video content without the impact of page content under the video on the page. </p>
+
+            <p>Overlay Video Experiences will allow for multiple videos to play on the page. This treatment does not inherit previous restrictions on video delivery and expectations. Most notably, the video can be uploaded once and used multiple times on the page without additional uploads or video ids to be generated/assigned. This overlay has the ability to be viewed full-screen and is mobile friendly.</p>
+            <p><a href="http://uxmovement.com/mobile/why-you-should-avoid-using-modal-windows-on-mobile/" target="_blank">Why You Should Avoid Using Modal Windows on Mobile</a></p>
+            <p class="notification-info ce-center">No Astra Media Group IDs are needed for any CE Programmed Content.***</p>
+
+            <p>Use the Resources tab to further explore the <a href="https://calculateaspectratio.com/" target="_blank">aspect ratio of video.</a> 16:9 is our standard player ratio. Delivery specs expect a 16:9 video as standard.</p>
+
+
+            <p class="notification-info ce-center">***Please maintain <a href="https://confluence5/display/CAPCE/Brand+Shop+Video+Delivery+Requirements">Brandshop Astra Video workflow requirements</a> for Brand and Browse pages. <br> The Brandshop Astra Video Workflow does not require CE to program video, but to assign the media group ID to the video in Brightcove. The CE Video Overlay Experience is for CE programmed content specifically and does not cross into other domains. CE programmed content includes: programmed imports, expandable banners, seo content pages, static pages, sitelets, flash sale pages, homepages, special feature campaigns, etc.</p>
+        </div>
+        <div class="icon-gen-more-red-huge ce-center macys-red"></div>
+        <div id="CEOverlay" class="row">
+            <div class="small-16 columns" style="background-color:white!important;">
+                <h4 class="section-header"> CE-Sitelet-15 Overlay Video 16:9 </h4>
+
+                <div> {{> video-features-catalog/ce-17-video-overlay}}</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-16 columns">
+                <h4 style="margin-top:2em;">Below:</h4>
+                <p id="PIOverlay">This overlay experience is for Programmed Imports and Homepages and was created early 2017 for CE pages that do not have Mobile requirements. For mobile video overlay - please see <a href="#CEOverlay"><strong>CE Overlay Video 16:9</strong> </a> above.</p>
+                {{> video-features-catalog/ce-video-overlay}}
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="icon-gen-more-red-huge ce-center"></div>
+    <div style="height:60px; ">
+        <a class="topper" href="#top">top</a> </div>
+
+    <!-- end overlay section -->
+
+
+    <!-- begin background looping section -->
+    <div class="row">
+        <div id="background" class="row">
+            <h2 class="video-section-header"> CE Background Video Experiences</h2>
+        </div>
+        <div id="FullWidthBackground" >
+            <div >
+                <h4 class="section-header">Full-Width Background Video </h4>
+                <p class="notification-info ce-center"> Consideration for file size and design should be discussed and an alternative design should be included if a bandwidth threshold is reached. </p>
+                 <p>This is an example of a looping background video with clickable content atop. </p>
+                <p>In this example, an official Macy's Fireworks video is looping in the background of the main ad. This ad was saved with transparency to allow the video to appear. This is from a 2016 July 4 Campaign featured on the homepage. </p>
+                
+           
+                <!---------------- looping-background-video -------->
+                  {{> video-features-catalog/full-width-video}}
+                <!-------------------------- video ends------------------->
+                <a class="topper" href="#top">top</a>
+            </div>
+        </div>
+       
+        <div id="LoopingBackground" class="row" style="position:relative;width:960px; height:22em;top:30%;">
+            <div class="small-16 columns">
+                <h4 class="section-header">Looping Background Video </h4>
+                <p class="notification-info ce-center"> Consideration for file size and design should be discussed and an alternative design should be included if a bandwidth threshold is reached. </p>
+                <p class="notification-info ce-center"> With careful consideration to page weight and size limitations, CE can implement looping videos with clickable content on top of the video as seen here - above is a July 4 looping video featured on the homepage in 2016 and below is multiple looping videos for the Macy's Trolls campaign of 2016/2017. </p>
+               
+
+                <!---------------- looping-background-video -------->
+                {{> video-features-catalog/looping-background-video }}
+                <!-------------------------- video ends------------------->
+                <a class="topper" href="#top">top</a>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div id="multi" class="small-16 columns">
+                <h4 class="section-header">Multiple Looping Videos </h4>
+                <p>This is an example of a creative campaign of many looping videos with clickable content atop, embedded video, and graphics layered between and outside of our 960px framework. </p>
+                <p> Consideration for file size and design should be discussed and an alternative design should be included if a bandwidth threshold is reached. In this example, there is multiple areas of looping content, embedded video, and graphics overlapping content and extending beyond the normal parameters of the page. </p>
+
+                <!---------------- looping-background-video -------->
+                {{> video-features-catalog/multi-looping-video }}
+                <!-------------------------- video ends------------------->
+                <!-----------   <a class="topper" href="#top">top</a> --------->
+            </div>
+        </div>
+        <div class="icon-gen-more-red-huge ce-center"></div>
+        <div style="height:40px;"> </div>
+        <a class="topper" href="#top">top</a>
+    </div>
+    <!-- end background looping section -->
+
+
+    <!-- begin Slideshow section 
+    <div>
+        <div id="CESlideshow" class="row">
+            <h2 class="video-section-header">CE Video Slideshow Experiences</h2>
+            <p>Slideshow content to be added with future updates to this catalog. A POC will be required to incorporate multiple videos into a slideshow to ensure the best implementation.</p>
+            <p>Slideshows aren't the best for usability and accessibilty, especially video slideshows. There's additional challenges to the video slideshow, namely around the start/stop/pause/loading of previous/current/next video. </p>
+            <p>Video Slideshow with Slick Integration</p>
+
+            <div>
+                   video-features-catalog/video-slideshow-slick}} 
+            </div>
+            <div class="icon-gen-more-red-huge ce-center"></div>
+            <div style="height:40px; "> </div>
+
+            <h4 class="section-header-yt">video slideshow: youtube</h4>
+            <p>Video Slideshow with YouTube Integration</p>
+            <div>
+                    video-features-catalog/video-slideshow-youtube}} 
+
+            </div>
+            <div class="icon-gen-more-red-huge ce-center"></div>
+            <div style="height:40px; "> </div>
+
+
+            <p>Resources on the user experience of the slideshow:</p>
+
+            <ul style="margin-left:50px; width:80%; text-align: left;">
+                <li><a href="https://www.newfangled.com/beware-homepage-slideshow/">Beware of the Slideshow</a></li>
+                <li><a href="https://www.freshconsulting.com/uiux-principle-13-the-effective-use-of-slideshows/">THE EFFECTIVE USE OF SLIDESHOWS</a></li>
+                <li><a href="http://shouldiuseacarousel.com/">Should I Use a Carousel</a></li>
+            </ul>
+        </div>
+
+        <div class="icon-gen-more-red-huge ce-center"></div>
+        <div style="height:40px; "> </div>
+
+
+        <a class="topper" href="#top">top</a>
+    </div>  -->
+
+
+    <!-- end Slideshow  section -->
+
+    <!-- begin 360 video section -->
+    <div>
+        <div id="360View" class="row">
+            <h2 class="video-section-header">CE 360° Experiences</h2>
+
+            <div class="small-16 columns">
+
+                <h4 class="section-header">360° Experience: Image and/or Video</h4>
+                <p>CE can accept specially formatted 360° image files for a 360° video experience to give the customer an immersive experience. Delivery specs and filming expectations are specific to the technology. Images must be per spec and aspect ratio.</p>
+                <p>The standard projection of 360° videos and images is “equirectangular” and output should be a 2:1 ratio. Spherical panoramas have a 2:1 aspect ratio because the field-of-view is 360° x 180°. Rather than seeing a flat map of the earth, the earth gets mapped into a sphere using orthogonal coordinates. This is equirectangular.</p>
+
+                <p class="ce-center"> <a href="https://github.com/google/spatial-media" target="_blank">A collection of specifications and tools for 360° video and spatial audio</a></p>
+
+                <h4 class="section-header">Standard Delivery Requirements for 360° Content</h4>
+                <ul style="margin-left:50px; width:80%; text-align: left; list-style-type: square;">
+
+                    <li class="embolden">File type: MP4 Container</li>
+                    <li class="embolden">Video Codec: H.264 Video</li>
+                    <li class="embolden">Resolution: 3840 x 1920</li>
+                    <li class="embolden">Dimensions: 2:1 Display Aspect Ratio</li>
+                    <li class="embolden">Frame Rate: Up to 60 FPS</li>
+                    <li class="embolden">Pixel Format: yuv420p</li>
+                    <li class="embolden"> Depth: Monoscopic</li>
+                    <li class="embolden"> Projection Format: Equirectangular</li>
+                    <li class="embolden">Audio: MP3 or AAC audio, at 128 kbps for optimal results</li>
+                    <li class="embolden"> Spatial Audio: Check out our recommendations below for getting started with spatial audio on Facebook</li>
+                </ul>
+                <p class="embolden">Please note, make sure that your video and audio tracks are the same duration in order to avoid encoding errors caused by mismatched timecodes.</p>
+
+                <p class="notification-info ce-center">Because of the 2:1 ratio aspect, a quality 360° video has a resolution of 3840 x 1920. By contrast, a 16:9 ratio, which is standard HDTV, 4K quality 360 video resolution is 3840 x 2160. A equirectangular video needs to be played back using a 360 video player. Each vendor has their own specs and flavor of player. CE can provide a 360 solution based on the specs of the various vendors (youTube, Facebook, Brightcove, etc)</p>
+
+            </div>
+
+
+            <!---------------------------- YT 360°  Experience  begins ------------------->
+
+            <div id="YouTube360" class="row">
+                <div class="small-16 columns">
+
+
+
+                    <h4 class="section-header-yt"> Embedded YouTube 360° Video 2:1 </h4>
+                    <p> This was an equirectangular photo taken in Hearld Square, in a hallway. Creative requested a 360° video experience from this photo in efforts to make the photo to appear to be a shop inside of the store. Below are the final results using the YouTube 360° API.</p>
+
+                    <!-- <div id="panorama"></div> -->
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/VEqYBNyMpZ4?controls=0&loop=1&autoplay=1&rel=0" frameborder="0" allowfullscreen></iframe>
+
+                    <p><a href="https://www.macys.com/ce/splash/beauty-suite/index" target="_blank">This video is currently on a Beauty Suite page.</a> This promotion ended May 15, 2017.</p>
+                </div>
+
+
+            </div>
+            <!---------------------------- YT 360°  Experience  ends------------------->
+
+            <a class="topper" href="#top">top</a>
+            <!---------------------------- YT 360°  Experience  ends------------------->
+
+            <!---------------------------- JS 360°  Experience  ------------------->
+            <div id="JS360" class="row">
+                <div class="small-16 columns">
+                    <h4 class="section-header"> Embedded Javascripted 360° Video 2:1 </h4>
+                    <p>The 360° Experience allowed the customer to experience the nooks, crannies and products as if they were walking into and through the store. Links to articles/announcements of the campaign and its innovative imagery are provided here. Macy's partnered with Grandin Road and vendors for this experience. </p>
+                    <iframe src="https://my.matterport.com/show/?m=9Qkc8QEpJQ5&amp;brand=0" allowfullscreen="allowfullscreen" frameborder="0" height="540" width="960"></iframe>
+
+                    <p><a href="http://wwd.com/business-news/retail/gallery/macys-grandin-road-collaboration-2016-halloween-pop-up-shop-herald-square-10502081/#!4/gr_mystical" target="_blank">Images: Macys collaboration with Grandin Road</a></br>
+                        <a href="https://www.marthastewart.com/1507374/take-tour-inside-grandin-road-halloween-pop-up-shop" target="_blank">Martha Stewart: Take a Tour Inside Grandin Road's Halloween Pop-up Shop (If You Dare) </a></br>
+                        <a href="https://www.grandinroad.com/blog/pop-up-shop/the-scare-at-herald-square-grandin-road-halloween-shop-opens-at-macys-nyc/" target="_blank">The Scare at Herald Square: Grandin Road Halloween Shop opens at Macy’s NYC</a></br>
+                        <p class="ce-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/BwqcQpXaFHk?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+                    </p>
+                </div>
+            </div>
+            <!-------------------- end JS 360°  Experience  ------------------->
+
+            <a class="topper" href="#top">top</a>
+            <!---------------------------- Facebook 360°  Experience  ------------------->
+            <div id="Facebook360" class="row">
+                <div class="small-16 columns">
+                    <h4 class="section-header-fb"> Embedded Facebook Specific 360° Video 2:1 </h4>
+                    <p class="notification-info ce-center"> note: <strong>Safari </strong>does not support FB 360 video.</p>
+                    <p>FB 360 video an has been used on the official corporate FB page, but CE does not have direct, easy access to the FB account/page to implement the solutions. Additional communication with the Macy's Social team and their account managers are necessary for success. Please factor this into communication, planning, and timing!</p>
+                    <p><a href="https://www.facebook.com/pg/Macys/videos/?ref=page_internal" target="_blank">Macy's Facebook Video Channel</a></p>
+                    <p><a href="https://www.facebook.com/facebookmedia/get-started/360" target="_blank">FB resources,</a> templates are available for best practices, delivery are well documented on Facebook.</p>
+                    <p><a href="https://facebook360.fb.com/360-photos/" target="_blank">360 Photos,  <a href="https://www.dropbox.com/sh/70mwlh8k0y4rg0g/AACVNV7hvRZtjEKj4DoJMhCba?dl=0">360 PS Templates and Calculations</a></p>
+                    <p>This treatment has not been developed by CE: Fall 2017.</p>
+                </div>
+            </div>
+            <!---------------------------- end Facebook 360°  Experience  ------------------->
+
+
+
+            <!---------------------------- Brightcove 360°  Experience  ------------------->
+            <a class="topper" href="#top">top</a>
+            <div id="Brightcove360" class="row">
+                <div class="small-16 columns">
+                    <h4 class="section-header">Embedded Brightcove 360° Video 2:1 </h4>
+                    <p>For a native 360° video hosted on Macy's and Brightcove, please request a POC and allow for additional development time, as CE has not implmented the brightcove APIs for 360 video. Brightcove is Macy's video cloud vendor.</p>
+                    <p>This treatment has not been developed yet: Fall 2017.</p>
+                </div>
+            </div>
+            <!--------------- end Brightcove 360°  Experience  ------------------->
+
+        </div>
+        <!-- end 360 video section -->
+        <div class="icon-gen-more-red-huge ce-center"></div>
+        <div style="height:40px;"> </div>
+        <a class="topper" href="#top">top</a>
+
+        <!-- total end 360 video section -->
+
+        <div id="resources" class="row">
+            <div class="small-16 columns">
+                <h2 class="video-section-header">Video Resources</h2>
+                <p>Questions? Need a better understanding of terms or dimensions? Just ask! Here's some common topics: </p>
+            </div>
+            <div id="AspectRatio" class="row">
+                <div class="small-16 columns">
+                    <h4 class="section-header">Understanding Aspect Ratio </h4>
+                    <p>The ratio has to be well defined to make shapes fit into different and distinct mediums, such as various desktop sizes, mobile tablet sizes and various mobile phone sizes. <span style="color:#cc0000;">To see a visual example of the 16:9 video aspect ratio on Macy's click this link: <a class="ce-center" href="/ce/video-features-catalog/maintain-aspect-ratio">the importance of maintaining aspect ratio</a></span></p>
+                    <p class="ce-center"><img src="https://www.macys.com/dyn_img/homepage/video/16-9-ratio.jpg" />
+                        <p class="ce-center"> Above is the sample shape for all expected video assets.</p>
+
+                        <p class="ce-center"> If the video looks like a square, it's likely a 4:3 video and can be placed in our HTML-5 4:3 video player. </p>
+                        <img src="https://www.macys.com/dyn_img/homepage/video/aspect-chart.png" />
+                        <p class="ce-center">Note the video shapes are different.</p>
+                        <img src="https://www.macys.com/dyn_img/homepage/video/350_4x3_vs_16x9_Aspect_Ratio_Monitors_balloon_.jpg" />
+                        <p class="ce-center"> The 4:3 aspect ratio dates back to 1917, when the Society of Motion Picture Engineers adopted it as the standard format for film. In the 1930's, the television industry adopted the same 4:3 standard. But in the mid-1950's, the motion picture industry began developing several widescreen formats to improve their decreasing audience numbers. </p>
+
+                        <p class="ce-center">16:9 is the native aspect ratio of most high-definition LCD monitors and mobile devices. It is 78% wider than it is tall, and fully one-third wider than a 4:3 screen. This is the expected ratio for all deliveries and designed content for video.</p>
+                        <h5>About the 2:1 aspect ratio video</h5>
+
+                        <p>This is the expected ratio for panoramic videos and 360 view videos</p>
+                        <img class="ce-center" src="https://www.macys.com/dyn_img/homepage/video/2-1-ratio.jpg" />
+                        <p> </p>
+
+                        <h5> Resources / Documentation for Aspect Ratio</h5>
+                        <ul>
+                            <li><a href="https://confluence5/display/CAPCE/How+to+Program+HTML5+CE+Video+Embeds">Confluence Documentation</a></li>
+                            <li><a href="https://confluence5/display/CAPCE/CE+Programmed+Video+Delivery+Requirements">CE Programmed Video Delivery Requirements</a></li>
+                            <li><a href="/ce/video-features-catalog/maintain-aspect-ratio">Maintaining Aspect Ratio</a></li>
+                            <li><a href="https://calculateaspectratio.com/">Aspect Ratio Calculator</a></li>
+                             <li><a href="https://confluence5/display/CAPCE/Video+Experience+Features+on+MCOM">CE Video Experience Features on MCOM (Spring 2017)</a></li>
+                        </ul>
+                        
+                </div>
+            </div>
+            <!---------------------AspectRatio ends------------------->
+            <div class="icon-gen-more-red-huge ce-center"></div>
+            <a class="topper" href="#top">top</a>
+            <div id="VideoDelivery" class="row">
+                <div class="small-16 columns">
+                    <h4 class="section-header">Video Delivery Criteria</h4>
+                    <p> This is our standard video delivery specs. <a href="DeliveryGuides360">360 video </a>has its own delivery specs.</p>
+                    <ul style="margin-left:50px; width:80%; text-align: left;">
+                        <strong>VIDEO FILE SPECIFICATIONS</strong>
+                        <li>Save at the highest quality possible - using original dimensions with as high a bitrate as possible. Note: System seems to have challenges with files more than 1GB.</li>
+                        <li>Video Dimensions/Resolution: 1920x1080 suggested suggested: 1920x1080 minimum: 1280x720 </li>
+                        <li>Video Codec to follow H264 guides File Type: H.264: .mov and mpg4, mpeg4 ONLY (Other files will not be accepted) File Extension: .mov is fine, .mpg, mpg4, mpeg4 preferred</li>
+                        <li>Video Compression Highest bit rate is preferred -within size limitations above. </li>
+                        <li>Videos will be compressed again in the Brightcove system with renditions based on device/bandwidth.</li>
+                        <li>Video Compression Guidelines from Brightcove The 1920x1080 format will require a bit rate of 8024 kbps to handle fast motion. The 1920x1080 format can have a bit rate of 6000 kbps for limited motion.</li>
+                        <li>Compression Minimums from Brightcove: Video: 800 kbps (minimum recommended compression rate) Audio: 128 kbps AAC </li>
+                    </ul>
+                    <ul style="margin-left:50px; width:80%; text-align: left;">
+                        <strong> Resources / Documentation for Video Delivery:</strong>
+                        <li><a href="http://confluence5/display/CAPCE/CE+Programmed+Video+Delivery+Requirements">CE Programmed Video Delivery Requirements on Confluence (racif id required)</a></li>
+                        <li><a href="" target="_blank">Printable CE Programmed Video Delivery Requirements (PDF)</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!---------------------VideoDelivery ends------------------->
+
+                <div class="icon-gen-more-red-huge ce-center"></div>
+            <a class="topper" href="#top">top</a>
+            <div id="DeliveryGuides360" class="row">
+                <div class="small-16 columns">
+                    <h4 class="section-header">Delivery Guides: 360 Video </h4>
+                    <ul style="margin-left:50px; width:80%; text-align: left;">
+                        <strong>360 VIDEO FILE SPECIFICATIONS</strong>
+                        <li class="embolden">File type: MP4 Container</li>
+                        <li class="embolden">Video Codec: H.264 Video</li>
+                        <li class="embolden">Resolution: 3840 x 1920</li>
+                        <li class="embolden">Dimensions: 2:1 Display Aspect Ratio</li>
+                        <li class="embolden">Frame Rate: Up to 60 FPS</li>
+                        <li class="embolden">Pixel Format: yuv420p</li>
+                        <li class="embolden">Depth: Monoscopic</li>
+                        <li class="embolden">Projection Format: Equirectangular</li>
+                        <li class="embolden">Audio: MP3 or AAC audio, at 128 kbps for optimal results</li>
+                        <li class="embolden">Spatial Audio: Check out our recommendations below for getting started with spatial audio on Facebook</li>
+                    </ul>
+                    <ul style="margin-left:50px; width:80%; text-align: left;">
+                        <strong> Resources / Documentation for  for  360 Video Delivery:</strong>
+                        <li><a href="http://confluence5/display/CAPCE/CE+Programmed+Video+Delivery+Requirements">CE Programmed Video Delivery Requirements on Confluence (racif id required)</a></li>
+                        <li><a href="">Printable CE Programmed Video Delivery Requirements (PDF)</a></li>
+                    </ul>
+
+                    <!-----------   <a class="topper" href="#top">top</a> --------->
+                </div>
+            </div>
+            <!--------------------- DeliveryGuides360 ends------------------->
+            <a style="height:40px;" class="topper" href="#top">top</a>
+            <div class="icon-gen-more-red-huge ce-center"></div>
+            <div style="height:40px; "> </div>
+            <!---------------------Video ButtonResources Begins ------------------->
+
+            <div id="ButtonResources" class="row">
+                {{> video-features-catalog/video-button-resources}}
+            </div>
+            <!--------------------- Video ButtonResources  ends------------------->
+
+
+
+
+        </div>
+        <!---------------end Video Resources ------------------->
+
+        <div class="icon-gen-more-red-huge ce-center"></div>
+        <div class="ce-center">fini</div>
+        <div class="icon-gen-more-red-huge ce-center"></div>
+        <a class="topper" href="#top">top of page</a>
+    </div>
+</div>
+
+<!-- end videoFeaturesWrapper -->

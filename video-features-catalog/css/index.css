@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Lato|Sacramento');
+#bd {
+    width: 100% !important;
+}
+h1,
+h2,
+h4,
+h3 {
+    font-family: 'Baloo Bhaina', cursive;
+    text-align: center;
+    padding-top: .7em;
+    margin: 0 auto;
+}
+#bd{
+		width:100% !important;
+        z-index: -100;
+        margin: 0 auto;
+}
+
+
+		#globalContentContainer {
+		border: none !important;
+        width:100%!important; 
+         margin: 0 auto!important;
+        background-color:wheat;
+	}
+	
+#FullWidthBackground {
+     width: 1000px;
+    left: -800px;
+}
+.ce-center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2.video-section-header {
+    font-size: 2.3em;
+    padding: 30px;
+    width: 100%;
+    /*left: -500px;*/
+    position: relative;
+    color: #fff;
+    background-color: #cc0000;
+    z-index: -3;
+    font-family: 'Baloo Bhaina', cursive;
+    letter-spacing: .075em;
+    position: relative;
+    height: 140%;
+}
+
+h3.section-name {
+    font-size: 2em;
+    padding: 40px;
+    width: 2000px;
+   /* left: -540px; */
+    position: relative;
+    background-color: #970842;
+    z-index: -3;
+    font-family: 'Baloo Bhaina', cursive;
+    position: relative;
+    height: 140%;
+
+
+}
+
+h4.section-header {
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    padding: .9em;
+    font-family: 'Baloo Bhaina', cursive;
+    font-size: 1.6em;
+    letter-spacing: .075em;
+}
+h4.subheader-sidenote{
+     font-family: 'sacramento', cursive;
+    font-size: 2.6em;
+}
+h4.section-header-yt {
+    background-color: #cc181e!important;
+    color: #fff;
+    font-family: 'Baloo Bhaina', cursive;
+    font-size: 1.6em;
+    letter-spacing: .075em;
+    width: 95%;
+    padding: .9em;
+}
+
+h4.section-header-fb {
+    background-color: #3b5998!important;
+    color: #fff;
+    padding: .9em;
+    font-family: 'Baloo Bhaina', cursive;
+    font-size: 1.6em;
+    letter-spacing: .075em;
+}
+
+
+
+
+h5 {
+    width: 100%;
+    background-color: rgba(204, 204, 204, 0.63);
+    padding: 15px;
+    font-family: 'Baloo Bhaina', sans-serif;
+    font-size: 1.3em;
+}
+
+p {
+    max-width: 860px;
+    width: 100%;
+    text-align: justify;
+    padding: 1.2em;
+      text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+div {
+    max-width: 100%;
+    width: 100%;
+      text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+br {
+    margin: 1.8em;
+}
+
+
+hr.divider {
+    border-top: 1px dashed #8c8b8b;
+}
+
+.embolden {
+    color: #000;
+    font-size: 1.1em;
+}
+
+#videoFeaturesWrapper {
+    height: 100%;
+    display: inline-block;
+    z-index: -12;
+    margin-top: 3.5em;
+    max-width: 960px;
+}
+
+.videoImg {
+    z-index: 12;
+    position: relative;
+}
+
+.video-js {
+    width: 100%;
+    max-width: 960px;
+    height: 100%;
+}
+
+.video-padd {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .video-padd {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    .bc-player-r1Lf66yc_default {
+        width:80%!important;
+    }
+}
+
+.interview-title {
+    position: relative;
+    z-index: 12;
+    margin-bottom: 2.5em;
+    color: aqua;
+}
+
+.interview-text {
+    position: absolute;
+    top: 50%;
+    z-index: 12;
+    color: aqua;
+}
+
+.interview-title p {
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    color: aqua;
+}
+
+.interview-title button {
+    width: 20%;
+}
+
+.interview-title-mobile {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    z-index: 13;
+}
+
+.topper {
+    padding: 2em;
+    font-size: 1.1em;
+    color: black;
+    float: right!important;
+    height: 5em;
+    display: block;
+}
+
+.macys-red {
+    color: #c00;
+}
+
+.performance-title {
+    position: relative;
+    z-index: 12;
+    color: aqua;
+}
+
+.performance-text {
+    position: absolute;
+    top: 50%;
+    z-index: 12;
+    color: aqua;
+}
+
+.performance-title p {
+    text-transform: uppercase;
+    margin: 0.5em;
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: aqua;
+}
+
+.performance-title button {
+    width: 20%;
+}
+
+.videoImg {
+    z-index: 12;
+    position: relative;
+}
+
+#watchInterview_div {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#watchPerformance_div {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#primary_nav_wrap {
+    padding-top: 5px;
+    text-align: center;
+    margin: 1em;
+    display: inline-block;
+    z-index: 550;
+}
+
+#primary_nav_wrap ul {
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0
+}
+
+#primary_nav_wrap ul a {
+    display: block;
+    color: #970842;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 10px 15px;
+    font-family: "lato", Helvetica, Arial, sans-serif;
+}
+
+#primary_nav_wrap ul li {
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#primary_nav_wrap ul li.current-menu-item {}
+
+#primary_nav_wrap ul li:hover {
+    background-color: rgba(153, 153, 151, 0.51);
+}
+
+.boxGray {
+    background-color: rgba(165, 167, 161, 0.51);
+    width: 100%;
+    height: 100%;
+}
+
+#primary_nav_wrap ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #eee;
+    padding: 0;
+}
+
+#primary_nav_wrap ul ul li {
+    float: none;
+    width: 300px;
+}
+
+#primary_nav_wrap ul ul a {
+    line-height: 120%;
+    padding: 10px 15px;
+}
+
+#primary_nav_wrap ul ul ul {
+    top: 0;
+    left: 100%;
+}
+
+#primary_nav_wrap ul li:hover > ul {
+    display: block
+}
+
+#separator {
+    width: 100%;
+    height: 2em;
+    background-color: indianred;
+}

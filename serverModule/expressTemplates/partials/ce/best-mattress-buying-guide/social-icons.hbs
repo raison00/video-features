@@ -1,0 +1,37 @@
+<script>
+
+var BMBGshareImage = 'https://www.macys.com/dyn_img/creativepages/Q6110004_facebook_share_icon.jpg';
+var BMBGshareUrl = 'https://www.macys.com/ce/best-mattress-buying-guide/index'; // 'https://t.co/Xo2jtu8WM2'
+var BMBGshareTitle = "Mattress Buying Guide";
+
+var BMBGfacebookText = "Searching for your dream mattress? Check out buying basics, accessories, care tips and more.";
+var BMBGtwitterText = "Searching for your dream mattress? Check out Macy's Mattress Buying Guide for shopping basics, accessories & more. https://t.co/Xo2jtu8WM2";
+var BMBGtwitterTextEncoded = "Searching%20for%20your%20dream%20mattress%3F%20Check%20out%20Macy%27s%20Mattress%20Buying%20Guide%20for%20shopping%20basics%2C%20accessories%20%26%20more.%20https%3A%2F%2Ft.co%2FXo2jtu8WM2";
+var BMBGpinterestText = "Searching for your dream mattress? Check out buying basics, accessories, care tips and more.";
+
+function BMBGshareFacebook() {
+	var shareUrl = 'https://www.facebook.com/sharer.php?u=' + BMBGshareUrl;
+	window.open(shareUrl,'BMBGshareWindow');
+}
+
+function BMBGshareTwitter() {
+	var shareUrl = 'https://twitter.com/intent/tweet?text=' + BMBGtwitterTextEncoded; // encodeURI(BMBGtwitterText);
+	//	+ '&url=' + encodeURI(BMBGshareUrl);
+	window.open(shareUrl,'BMBGshareWindow');
+}
+
+function BMBGsharePinterest() {
+	var shareUrl = 'https://pinterest.com/pin/create/button/?url=' + encodeURI(BMBGshareUrl)
+		+ '&media=' + encodeURI(BMBGshareImage) 
+		+ '&description=' + encodeURI(BMBGpinterestText)
+		;
+	window.open(shareUrl,'BMBGshareWindow');
+}
+
+</script>
+
+<div id="mattress-buying-guide-social-icons">
+	<img onclick="BMBGshareFacebook()" src="{{imageUrlAssets}}/Q6110004m_facebook_icon.png" alt="facebook">
+	<img onclick="BMBGshareTwitter()" src="{{imageUrlAssets}}/Q6110004m_twitter_icon.png" alt="twitter">
+	<img onclick="BMBGsharePinterest()" src="{{imageUrlAssets}}/Q6110004m_pinterest_icon.png" alt="pinterest">
+</div>

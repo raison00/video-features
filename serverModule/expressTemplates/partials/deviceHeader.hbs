@@ -1,0 +1,27 @@
+{{#if desktop}}
+
+    <header class="default" data-uri="/xapi/navigate/v1/header" data-assethost="{{assetsServer}}" data-hostlink="{{domainUrl}}" data-context='{"shoppingMode":"{{headerShoppingModeContext}}","regionCode":"US","application":"SITE","deviceType":"DESKTOP","navigationType":"BROWSE","viewType":"Default","domestic":true}'></header>
+
+{{else}}
+    {{#if mobile}}
+        {{#if app}}
+        {{else}}
+            {{!-- {{> mobileHeader}} --}}
+
+            <header class="compact" data-uri="/xapi/navigate/v1/header" data-assethost="{{assetsServer}}" data-hostlink="{{domainUrl}}" data-context='{"shoppingMode":"{{headerShoppingModeContext}}","regionCode":"US","application":"MEW","deviceType":"PHONE","navigationType":"BROWSE","viewType":"Compact","domestic":true}'></header>
+
+            <style>
+                /* needed to override macys-base.css with the universal Polaris header*/
+                header.compact, footer.compact {
+                    min-width: 0;
+                    height: auto;
+                }
+            </style>
+
+        {{/if}}
+    {{/if}}
+{{/if}}
+
+
+
+

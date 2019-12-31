@@ -1,0 +1,18 @@
+{{#if desktop}}
+
+    <footer data-version="Default" class="default" data-uri="/xapi/navigate/v1/footer" data-assethost="{{assetsServer}}" data-hostlink={{domainUrl}} data-context='{"shoppingMode":"SITE","regionCode":"US","application":"SITE","deviceType":"DESKTOP","navigationType":"BROWSE","viewType":"Default","domestic":true}'></footer>
+
+{{else}}
+    {{#if mobile}}
+        {{#if app}}
+        {{else}}
+            {{!-- {{> mobilefooter}} --}}
+
+            <footer data-version="Compact" class="compact" data-uri="/xapi/navigate/v1/footer" data-assethost="{{assetsServer}}" data-hostlink="{{domainUrl}}" data-context='{"shoppingMode":"SITE","regionCode":"US","application":"MEW","deviceType":"PHONE","navigationType":"BROWSE","viewType":"Compact","domestic":true}'></footer>
+        {{/if}}
+    {{/if}}
+{{/if}}
+
+
+
+{{> debugInfoFooterComment}}

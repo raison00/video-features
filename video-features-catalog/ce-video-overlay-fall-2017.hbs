@@ -1,0 +1,287 @@
+
+<!-- fc solution -->
+
+<script>
+$(document).ready(function(){
+
+	// pass the video ID into the iframe on click/tap
+	$('a.video-thumb').click(function () {
+		
+		// Grab the video ID from the element clicked
+		var id = $(this).attr('data-id');
+
+		// String the ID and param variables together
+		var src = "//players.brightcove.net/24953835001/e87f3d8a-35ea-478a-a4a7-70d26d18f6c7_default/index.html?videoId="+id;
+		
+		// Set the source on the iframe template inside the video modal
+		$("#brightcove").attr('src', src);
+		return false;
+	
+	});
+
+
+	/* Modal View
+	-------------------------------------------------------------------------------*/
+	function toggle_video_modal() {
+	    
+	    // Open the Video Modal
+	    $(".js-trigger-modal").on("click", function(event){
+	        event.preventDefault();
+	        $("body").addClass("show-video-modal");
+	    });
+
+	    // Close and Reset the Video Modal
+	    $('body').on('click', '.close-video-modal, .video-modal .overlay', function(event) {
+	        event.preventDefault();
+	        
+	        $("body").removeClass("show-video-modal");
+			
+	        // reset the source attribute for the iframe template - kills the video
+			$("#brightcove").attr('src', '');
+	    });
+	}
+	toggle_video_modal();
+
+
+
+});
+
+
+</script>
+<style>
+
+    
+ /* fc solution for video 6/6/17 */   
+ 
+    .ceoverlay-button--fullscreen{visibility: hidden;}
+    .bc-iframe body, .bc-player-e87f3d8a-35ea-478a-a4a7-70d26d18f6c7_default{background-color:white!important; max-width:960px;max-height:540px;}
+    .bc-player-e87f3d8a-35ea-478a-a4a7-70d26d18f6c7_default *,
+    .bc-player-e87f3d8a-35ea-478a-a4a7-70d26d18f6c7_default :after,
+    .bc-player-e87f3d8a-35ea-478a-a4a7-70d26d18f6c7_default :before {background-color:white!important;}
+    .video-js .vjs-dock-description {
+    background-color:white;
+} 
+
+    .ceoverlay-button {
+    display: inline-block;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    vertical-align: top;
+    outline: none;
+   background: rgba(204,0,0,.8);
+        float: right;
+}
+    
+    .video-thumb {
+	display: inline-block;
+	
+	width: 13em;
+	height: 5em;
+	padding-top: 2em;
+	margin-right: 2em;
+	margin-bottom: 2em;
+	
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+
+	background-color: #D95BA2;
+	-webkit-transform: scale(1.0);
+	transform: scale(1.0);
+
+	-webkit-transition: 
+		background-color 0.2s ease-out 0.05s,
+		-webkit-transform 0.2s ease-out 0.05s;
+	transition: 
+		background-color 0.2s ease-out 0.05s,
+		transform 0.2s ease-out 0.05s;
+}
+.video-thumb:hover {
+	background-color: #CF007D;
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+
+/* Video Modal - desktop
+-------------------------------------------------------------------------------*/
+.video-modal,
+.video-modal .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 300;
+}
+.video-modal {
+	overflow: hidden;
+	position: fixed;
+	opacity: 0.0;
+
+    -webkit-transform: translate(500%,0%);
+    transform: translate(500%,0%);
+
+    -webkit-transition: -webkit-transform 0s linear 0s;
+    transition: transform 0s linear 0s;
+
+
+    /* using flexbox for vertical centering */
+
+    /* Flexbox display */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+
+    /* Horizontal alignment */
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+
+    /* Vertical alignment */
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.video-modal .overlay {
+    z-index: 0;
+    background: rgba(250,250,250,0.80); /* whitey white */
+
+    opacity: 0.0;
+
+    -webkit-transition: opacity 0.2s ease-out 0.05s;
+    transition: opacity 0.2s ease-out 0.05s;
+}
+
+
+.video-modal-content {
+	position: relative;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	left: auto;
+	z-index: 1;
+
+	height: auto;
+	/*   width: 76%; */
+	width: calc(100% - 200px);
+	max-width: 1000px;
+	max-height: calc(100% - 100px);
+	margin: 0 auto;
+
+	overflow-y: visible;
+
+	background: #fff; 
+
+
+	/*-webkit-transform: translate(0%,-20%);
+    transform: translate(0%,-20%);
+
+    -webkit-transition: -webkit-transform 0.2s ease-out 0.15s;
+    transition: transform 0.2s ease-out 0.15s; */
+}
+/* Mobile tweaks for overlay */
+@media (max-width: 640px) {
+	.video-modal-content {
+		width: calc(100% - 5em);
+	}
+}
+
+/* close button */
+.close-video-modal {
+	display: block;
+    position: absolute;
+    right: 0;
+    top: -90px;
+
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+
+    /*border: 2px solid red;*/
+}
+
+/* using a 16:9 image to resize the video frame */
+.video-sizer {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* set the iframe element to stretch to fit its parent element */
+iframe#brightcove {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+
+	background: #fff;
+	box-shadow: 0px 2px 16px rgba(0,0,0,0.5);
+}
+
+/* show the modal */
+/* add class to the body */
+.show-video-modal .video-modal {
+	opacity: 1.0;
+
+	transform: translate(0%,0%);
+	-webkit-transform: translate(0%,0%);
+}
+.show-video-modal .video-modal .overlay {
+	opacity: 1.0;
+}
+.show-video-modal .video-modal-content {
+	transform: translate(0%,0%);
+	-webkit-transform: translate(0%,0%);
+}
+</style>
+
+
+
+
+
+
+<a href="//players.brightcove.net/24953835001/e87f3d8a-35ea-478a-a4a7-70d26d18f6c7_default/index.html?videoId=" data-id="1275412585001" class="video-thumb js-trigger-modal">
+	  Armani Rhianna
+	</a>
+	<a href="//players.brightcove.net/24953835001/e87f3d8a-35ea-478a-a4a7-70d26d18f6c7_default/index.html?videoId=1275412569001" data-id="1275412569001" class="video-thumb js-trigger-modal">
+	  Armani Nadal
+	</a>
+<a href="javascript:;" data-id="1886310437001" class="video-thumb js-trigger-modal">
+	  Armani Jeans  
+	</a>
+		<a href="javascript:;" data-id="704923110001" class="video-thumb js-trigger-modal">
+	  Armani Code
+	</a>
+	<a href="javascript:;" data-id="3902294835001" class="video-thumb js-trigger-modal">
+	  Georgio Armani
+	</a>
+<a href="javascript:;" data-id="4276176683001" class="video-thumb js-trigger-modal">
+	  Armani eyewear  
+	</a>
+
+
+
+
