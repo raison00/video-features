@@ -1,0 +1,15 @@
+<section id="m-footer-container" class="simple">
+    <div id="m-footer-simple">
+      <ul id="m-footer-links-simple">
+        <li>
+          {{#if signedIn}}
+            <a id="m-footer-link-simple-signout" class="m-j-cm-link" href="/">Sign Out</a>
+          {{else}}
+            <a id="m-footer-link-simple-signin" class="m-j-cm-link" href="{{secureUrl}}/account/signin">Sign In</a>
+          {{/if}}
+        </li>
+        <li><a id="m-footer-link-simple-contact" class="m-j-cm-link" href="{{CUSTOMER_SERVICE_CONTACT_US}}">Contact Us</a></li>
+        <li><a id="m-footer-link-simple-desktop" class="m-j-cm-link" href="{{DESKTOP_VERSION_URL}}">Desktop Version</a></li>
+      </ul>
+    </div>
+</section>

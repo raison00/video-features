@@ -1,0 +1,25 @@
+{{!-- <section id="mb-j-search-container" class="m-brandindex-search--is-hidden">
+  <form id="mb-keyword-search-form" method="get" action="{{searchURL}}" onsubmit="return false;">
+    <div id="m-search-input-wrapper">
+      <input id="globalSearchInputField" name="keyword"
+        maxlength="50" autocorrect="off" autocomplete="off"
+        placeholder="Search or enter web ID" class="mc-globalSearchInputField"
+        data-cm-manual-link="MEW_navigation-_-top_nav-_-search"
+        type="text" style="font-style: italic;">
+      <div id="mb-j-search-clear" class="icon-search-clear hide"></div>
+      <button id="m-search-go" class="icon-search" type="button" value="GO">&nbsp;</button>
+    </div>
+  </form>
+</section> --}}
+
+<section id="mb-j-search-container" class="m-brandindex-search--is-hidden">
+  <form id="mb-keyword-search-form" action="{{searchURL}}" method="get">
+    <input type="hidden" name="cm_sp" value="navigation_mew--gn--search-n-n">
+    <div id="m-search-input-wrapper">
+      <input id="globalSearchInputField" name="keyword" type="text" value="{{searchPhrase}}" maxlength="50" autocorrect="off"  autocomplete="off" placeholder="Search or enter web ID" class="m-j-cm-manual-link" data-cm-manual-link="mew_navigation-_-top_nav-_-search"/>
+      <div id="mb-j-search-clear" class="hide"></div>
+      <button id="m-search-go" type="submit" value="GO">&nbsp;</button>
+    </div>
+  </form>
+</section>
+<section id="mb-j-autocomplete-container"></section>  

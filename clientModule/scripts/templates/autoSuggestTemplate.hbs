@@ -1,0 +1,23 @@
+{{#if mobile}}
+<ul class="mb-autocomplete-container">
+    {{#each SUGGESTION}}
+    <li>
+        <a href="/shop/search?keyword={{this}}&cm_kws_ac={{../prefix}}" class="mb-select-autocomplete" data-kwac="{{../prefix}}">
+            <div class="select">
+                {{autoCompleteList this ../prefix}}
+            </div>
+        </a>
+    </li>
+    {{/each}}
+</ul>
+{{else}}
+<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style=" {{styleattr}}">
+    {{#each SUGGESTION}}
+    <li class="ui-menu-item" role="presentation">
+        <a href="/shop/search?keyword={{this}}&cm_kws_ac={{../prefix}}" id="ui-id-71" class="ui-corner-all" tabindex="-1">
+            <div class="suggestion">{{autoCompleteListdesktop this ../prefix}}</div>
+        </a>
+    </li>
+    {{/each}}
+</ul>
+{{/if}}

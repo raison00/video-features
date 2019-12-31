@@ -1,0 +1,113 @@
+<header id="globalMastheadContainer">
+    <nav id="topnav" class="hide-for-small">
+        <ul>
+            {{#if userName}}
+            <li><a id="globalMastheadUserSalutation">Welcome {{userName}}</a></li>
+            {{/if}}
+            <li class="user">
+                {{#if signedIn}}
+                <a id="globalMastheadSignout" class="" target="_top" href="{{macysBaseUrl}}/signin/signout.ognc?cm_sp=navigation-_-top_nav-_-signin">(sign out)</a>                {{else}}
+                <a id="globalMastheadSignIn" class="selected" target="_top" href="{{macysBaseUrl}}/account/signin?cm_sp=navigation-_-top_nav-_-signin">sign in</a>                {{/if}}
+            </li>
+            <li id="dropDownABTest" class="dropdownExperiment"><a id="href_myAccountHeader" class="noTextDecoration" target="_top" href="/account/myaccount?cm_sp=navigation-_-top_nav-_-account">my account</a>
+                <ul role="group" aria-labelledby="href_myAccountHeader">
+                    <li><a href="/creditservice/gateway?cm_sp=navigation-_-top_nav-_-my_credit_card">My Macy's Credit Card</a></li>
+                    <li><a href="/service/order-status?cm_sp=navigation-_-top_nav-_-my_order_history">My Order History</a></li>
+                    <li><a href="/account/profile?cm_sp=cm_sp=navigation-_-top_nav-_-my_profile">My Profile</a></li>
+                    <li><a href="/account/wallet?cm_sp=top_nav-_-guest-_-my_wallet_personalized">My Wallet</a></li>
+                    <li><a href="/loyalty/summary?cm_sp=top_nav-_-guest-_-my_plenti_points">My Plenti</a></li>
+                    <li><a href="/wishlist/mylist?cm_sp=navigation-_-top_nav-_-my_lists">My Lists</a></li>
+                </ul>
+            </li>
+            <li><a id="stores" href="{{macysBaseUrl}}/store/index.ognc?cm_sp=navigation-_-top_nav-_-stores-_-n">stores</a></li>
+            <li><a href="{{macysBaseUrl}}/service/index.jsp">customer service</a></li>
+            <li class="right">
+                <div id="globalMastheadPool">
+                    <div class="macysGlobalNavAdLink" id="navAdOne">
+                        <a href="javascript:pop('/ce/splash/free-shipping/index','myDynaPop','scrollbars=yes,width=950,height=900')">
+                            <img src="https://assets.macysassets.com/navapp/dyn_img/site_ads/120816_PROMO_FF_THURS_HOMEPAGE_GNA2_1271055.png" alt="Free Shipping, With $99 Purchase + Free Returns, U.S, only, Exclusions"
+                                height="40" width="307" border="0">
+                        </a>
+                    </div>
+                    <div class="macysGlobalNavAdLink" id="navAdTwo">
+                        <a href="javascript:pop('/ce/splash/buy-online-pickup-in-store/index','myDynaPop','scrollbars=yes,width=950,height=900')">
+                            <img src="https://assets.macysassets.com/navapp/dyn_img/site_ads/120816_PROMO_FF_THURS_HOMEPAGE_GNA1_1271054.png" alt="Buy Online, Pick up in Store and Get Extra 20 percent off! Find out More"
+                                height="40" width="307" border="0">
+                        </a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div id="globalMastheadSearchMenu">
+        <div id="globalMastheadBrandLogo" class="left">
+            <a target="_top" href="{{macysBaseUrl}}/index.ognc?cm_sp=navigation-_-top_nav-_-macys_icon">
+                <div alt="Macy's" title="Macy's"></div>
+            </a>
+        </div>
+        <div id="nav-search-box" role="search" class="left">
+            <form onsubmit="javascript: cmCreateManualLinkClickTag(this.action + \" ?cm_sp=navigation-_-top_nav-_-search\",this.name);return isValidSubmit(this.name);" target="_top" name="keywordSearch" method="GET" action="{{macysBaseUrl}}/shop/search">
+                <span>
+                    <label style="position:absolute!important; height: 1px; width: 1px; overflow: hidden;clip: rect(1px, 1px, 1px, 1px)" for="globalSearchInputField">Search or enter web ID</label>
+                    <input size="9" maxlength="72" type="text" id="globalSearchInputField" class="globalSearchInputField" name="keyword" value="" placeholder="Search or enter web ID">
+                    <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+                </span>
+
+                <input alt="Search Now" id="subnavSearchSubmit" value="KEYWORD_GO_BUTTON" type="image" name="KEYWORD_GO_BUTTON" border="0"
+                    src="https://assets.macys.com/navapp/web20/assets/img/nav/header-search-button.gif" aria-label="Submit product search">
+                <input value="*" name="SearchTarget" type="hidden">
+                <input type="hidden" name="cm_sp" value="navigation-_-top_nav-_-search">
+                <input type="hidden" id="searchAutoCompleteEnabled" value="false">
+                <input type="hidden" id="mobileSearchAutoCompleteEnabled" value="false">
+                <input type="hidden" id="apolloHost" value="https://32.83.67.97:80/">
+                <input type="hidden" id="autoCompleteApolloServiceEndpoint" value="suggester/">
+                <input type="hidden" id="autoCompleteMaxSuggestions" value="10">
+                <input type="hidden" id="autoCompletePulseRate" value="300">
+                <input type="hidden" id="autoCompleteRetryAttempt" value="2">
+                <input type="hidden" id="autoCompleteRequestTimeout" value="3000">
+            </form>
+        </div>
+
+        <div id="globalMastheadBag">
+            <div id="quickBagHeader" class="quickBagFlyoutHeader" aria-haspopup="true">
+                <a id="checkoutLink" href="{{macysBaseUrl}}/bag/index.ognc?cm_sp=navigation-_-top_nav-_-bag"><span id="itemInfo">my bag</span><span id="itemCount">&nbsp;<span>(</span>0<span>)</span></span><button class="hide-for-screenreader" tabindex="0" id="openQbAccessibile">Opens QuickBag flyout</button></a>
+                <div id="qbFlyout" class="quickBagFlyout" aria-hidden="true">
+                    <div class="quickBagEmpty">
+                        <div class="zeroItemCount">0 items in your bag. Shop great deals now!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+    <div id="globalMastheadBlackBg"></div>
+
+    <div id="globalMastheadCategoryMenu" role="navigation" class="clearFloats macysDynFlyout">{{{fobNav}}}</div>
+
+    <div id="featureNav">
+        <ul class="nav nav-pills">
+            <li>
+                <a id="globalMastheadFeatureMenuWeddingRegistry" href="/wedding-registry?cm_sp=global_nav_reg-_-wedding_registry-_-n">wedding registry</a>
+            </li>
+            <li>
+                <a id="giftCards" href="/catalog/index.ognc?CategoryID=1405&amp;PageID=6036169698215&amp;cm_sp=global_nav_reg-_-gift_cards-_-n">gift cards</a>
+            </li>
+            <li>
+                <a id="dealsPromotionHref" href="/shop/coupons-deals?cm_sp=navigation-_-top_nav-_-dealsandpromos">deals &amp; promotions</a>
+            </li>
+            <li>
+                <a id="wishListHref" href="/wishlist/mylist?cm_sp=navigation-_-top_nav-_-wish_list">lists</a>
+            </li>
+            <li>
+                <a class="secondaryBolder" href="/gifts?cm_sp=navigation-_-top_nav-_-giftguide">
+                    The Mother's Day Gift Guide
+                </a>
+            </li>
+            <li>
+                <a class="secondaryBolder" href="/ce/splash/trend-report/index?cm_sp=navigation-_-top_nav-_-trend-report">Trend Report
+                </a>
+            </li>
+        </ul>
+    </div>
+</header>

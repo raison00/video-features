@@ -1,0 +1,10 @@
+1. Require formHandlerMain and pass in the id of your form (as a string).
+2. There is an init function that allows you to pass in a configuration object:
+      configObj = {
+        useBlur: true/false,
+
+      }
+3. By default, the formHandlerMain uses FormHandlerRules.js  and FormHandlerRecoverTexts.js for rules and error messages, respectively.  CSG is working with Copy to consolidate and standardize all rules and error messages in 16C.  
+4. All input and select fields need a 'data-validate' attribute.
+
+5. 

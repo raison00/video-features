@@ -1,0 +1,635 @@
+{
+    "resultsperpage": 3,
+    "currentpage": 1,
+    "sortby": "bestseller",
+    "show": "product",
+    "application": "SITE",
+    "assortment": "SITE",
+    "device": "PC",
+    "country": "US",
+    "totalresults": 1,
+    "resptime": "85ms",
+    "querydate": "2017-05-02T14:17:30.786-04:00",
+    "warning": ["Image quality cannot be above max allowed 100 and is defaulted to default allowed 90"],
+    "category": [{
+        "id": 124942,
+        "summary": {
+            "name": "Floral Fairytale",
+            "categorytype": "Flexible Template",
+            "registryCategoryType": "Browse",
+            "categorypageurl": "http://www1.macys.com/shop/womens-clothing/floral-fairytale?id=124942&edge=hybrid",
+            "categoryHighlight": false,
+            "pageId": "browse_women_featured-shops_dress-edit_floral-fairytale",
+            "pageType": "Browse",
+            "registryPageType": "Browse",
+            "mobilePublish": "Y",
+            "countryEligible": true
+        },
+        "parentcategory": {
+            "type": "categoryResponseEven",
+            "id": 107646,
+            "summary": {
+                "name": "Dress Edit",
+                "categorytype": "GoTo",
+                "registryCategoryType": "Browse",
+                "categorypageurl": "http://www1.macys.com/shop/womens-clothing/dress-edit?id=107646&edge=hybrid",
+                "overrideUrl": "/social/dress-edit/",
+                "categoryHighlight": false,
+                "pageType": "Browse",
+                "registryPageType": "Browse",
+                "mobilePublish": "Y",
+                "countryEligible": true
+            }
+        },
+        "product": {
+            "product": [{
+                "id": 4478450,
+                "summary": {
+                    "name": "Calvin Klein Trapeze Dress",
+                    "producttype": "DRESS",
+                    "brand": "Calvin Klein",
+                    "onsale": false,
+                    "producturl": "http://www1.macys.com/shop/product/calvin-klein-trapeze-dress?ID=4478450",
+                    "iscollection": false,
+                    "available": true,
+                    "customerrating": 4.5714,
+                    "productstartdays": 66,
+                    "totalreviews": 7
+                },
+                "image": [{
+                    "imagetype": "PRIMARY_IMAGE",
+                    "imageurl": "https://slimages.macys.com/is/image/MCY/products/8/optimized/8305668_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                    "imagename": "8/optimized/8305668_fpx",
+                    "colorized": true,
+                    "sequenceNumber": 0,
+                    "hasMoreColors": true,
+                    "numberColors": 12,
+                    "isPrimaryImage": true
+                }, {
+                    "imagetype": "ADDITIONAL_IMAGE",
+                    "imageurl": "https://slimages.macys.com/is/image/MCY/products/2/optimized/8305682_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                    "imagename": "2/optimized/8305682_fpx",
+                    "sequenceNumber": 0
+                }, {
+                    "type": "colorwayImage",
+                    "imagetype": "COLORWAY",
+                    "id": 2773699,
+                    "colornormal": "White",
+                    "color": "Ember White",
+                    "upcadditionalimage": [{
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/0/optimized/8345730_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "0/optimized/8345730_fpx",
+                        "sequenceNumber": 1
+                    }],
+                    "upcprimaryimage": {
+                        "imagetype": "UPC_PRIMARY_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/9/optimized/8345729_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "9/optimized/8345729_fpx",
+                        "sequenceNumber": 0
+                    },
+                    "swatchsequencenumber": 0,
+                    "swapoutsequencenumber": 3,
+                    "swatchimage": {
+                        "imagetype": "SWATCH",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/swatches/2/optimized/8345742_fpx.tif?wid=57&amp;fmt=jpeg",
+                        "imagename": "2/optimized/8345742_fpx",
+                        "sequenceNumber": 1
+                    }
+                }, {
+                    "type": "colorwayImage",
+                    "imagetype": "COLORWAY",
+                    "id": 2703841,
+                    "colornormal": "Blue",
+                    "color": "Serene Multi",
+                    "upcadditionalimage": [{
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/5/optimized/8345765_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "5/optimized/8345765_fpx",
+                        "sequenceNumber": 1
+                    }],
+                    "upcprimaryimage": {
+                        "imagetype": "UPC_PRIMARY_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/2/optimized/8345752_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "2/optimized/8345752_fpx",
+                        "sequenceNumber": 1
+                    },
+                    "swatchsequencenumber": 0,
+                    "swapoutsequencenumber": 0,
+                    "swatchimage": {
+                        "imagetype": "SWATCH",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/swatches/6/optimized/8345766_fpx.tif?wid=57&amp;fmt=jpeg",
+                        "imagename": "6/optimized/8345766_fpx",
+                        "sequenceNumber": 0
+                    }
+                }, {
+                    "type": "colorwayImage",
+                    "imagetype": "COLORWAY",
+                    "id": 2814495,
+                    "colornormal": "Multi",
+                    "color": "Grey Multi",
+                    "upcadditionalimage": [{
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/6/optimized/2829126_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "6/optimized/2829126_fpx",
+                        "sequenceNumber": 1
+                    }],
+                    "upcprimaryimage": {
+                        "imagetype": "UPC_PRIMARY_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/5/optimized/2829125_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "5/optimized/2829125_fpx",
+                        "sequenceNumber": 0
+                    },
+                    "swatchsequencenumber": 0,
+                    "swapoutsequencenumber": 9,
+                    "swatchimage": {
+                        "imagetype": "SWATCH",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/swatches/7/optimized/359547_fpx.tif?wid=57&amp;fmt=jpeg",
+                        "imagename": "7/optimized/359547_fpx",
+                        "sequenceNumber": 0
+                    }
+                }, {
+                    "type": "colorwayImage",
+                    "imagetype": "COLORWAY",
+                    "id": 2813606,
+                    "colornormal": "Pink",
+                    "color": "Pink Multi",
+                    "upcadditionalimage": [{
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/3/optimized/8407703_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "3/optimized/8407703_fpx",
+                        "sequenceNumber": 1
+                    }],
+                    "upcprimaryimage": {
+                        "imagetype": "UPC_PRIMARY_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/6/optimized/8382786_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "6/optimized/8382786_fpx",
+                        "sequenceNumber": 0
+                    },
+                    "swatchsequencenumber": 0,
+                    "swapoutsequencenumber": 6,
+                    "swatchimage": {
+                        "imagetype": "SWATCH",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/swatches/0/optimized/8438790_fpx.tif?wid=57&amp;fmt=jpeg",
+                        "imagename": "0/optimized/8438790_fpx",
+                        "sequenceNumber": 1
+                    }
+                }, {
+                    "type": "colorwayImage",
+                    "imagetype": "COLORWAY",
+                    "id": 2814496,
+                    "colornormal": "Multi",
+                    "color": "Black White",
+                    "upcadditionalimage": [{
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/1/optimized/8420061_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "1/optimized/8420061_fpx",
+                        "sequenceNumber": 1
+                    }],
+                    "upcprimaryimage": {
+                        "imagetype": "UPC_PRIMARY_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/0/optimized/8420060_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "0/optimized/8420060_fpx",
+                        "sequenceNumber": 0
+                    },
+                    "swatchsequencenumber": 0,
+                    "swapoutsequencenumber": 10,
+                    "swatchimage": {
+                        "imagetype": "SWATCH",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/swatches/2/optimized/8420062_fpx.tif?wid=57&amp;fmt=jpeg",
+                        "imagename": "2/optimized/8420062_fpx",
+                        "sequenceNumber": 1
+                    }
+                }, {
+                    "type": "colorwayImage",
+                    "imagetype": "COLORWAY",
+                    "id": 2814494,
+                    "colornormal": "Pink",
+                    "color": "Blush Mult",
+                    "upcadditionalimage": [{
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/1/optimized/3501441_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "1/optimized/3501441_fpx",
+                        "sequenceNumber": 1
+                    }],
+                    "upcprimaryimage": {
+                        "imagetype": "UPC_PRIMARY_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/0/optimized/3501440_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "0/optimized/3501440_fpx",
+                        "sequenceNumber": 0
+                    },
+                    "swatchsequencenumber": 0,
+                    "swapoutsequencenumber": 8,
+                    "swatchimage": {
+                        "imagetype": "SWATCH",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/swatches/2/optimized/361212_fpx.tif?wid=57&amp;fmt=jpeg",
+                        "imagename": "2/optimized/361212_fpx",
+                        "sequenceNumber": 0
+                    }
+                }, {
+                    "type": "colorwayImage",
+                    "imagetype": "COLORWAY",
+                    "id": 2825839,
+                    "colornormal": "Pink",
+                    "color": "Coral Multi",
+                    "upcadditionalimage": [{
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/5/optimized/8438905_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "5/optimized/8438905_fpx",
+                        "sequenceNumber": 1
+                    }],
+                    "upcprimaryimage": {
+                        "imagetype": "UPC_PRIMARY_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/4/optimized/8438904_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "4/optimized/8438904_fpx",
+                        "sequenceNumber": 0
+                    },
+                    "swatchsequencenumber": 0,
+                    "swapoutsequencenumber": 11,
+                    "swatchimage": {
+                        "imagetype": "SWATCH",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/swatches/3/optimized/8438953_fpx.tif?wid=57&amp;fmt=jpeg",
+                        "imagename": "3/optimized/8438953_fpx",
+                        "sequenceNumber": 1
+                    }
+                }, {
+                    "type": "colorwayImage",
+                    "imagetype": "COLORWAY",
+                    "id": 2773698,
+                    "colornormal": "Pink",
+                    "color": "Watermelon Multi",
+                    "upcadditionalimage": [{
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/7/optimized/8345777_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "7/optimized/8345777_fpx",
+                        "sequenceNumber": 1
+                    }],
+                    "upcprimaryimage": {
+                        "imagetype": "UPC_PRIMARY_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/2/optimized/8345762_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "2/optimized/8345762_fpx",
+                        "sequenceNumber": 0
+                    },
+                    "swatchsequencenumber": 0,
+                    "swapoutsequencenumber": 2,
+                    "swatchimage": {
+                        "imagetype": "SWATCH",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/swatches/6/optimized/8345776_fpx.tif?wid=57&amp;fmt=jpeg",
+                        "imagename": "6/optimized/8345776_fpx",
+                        "sequenceNumber": 1
+                    }
+                }, {
+                    "type": "colorwayImage",
+                    "imagetype": "COLORWAY",
+                    "id": 2703842,
+                    "colornormal": "Pink",
+                    "color": "Peach Multi",
+                    "upcadditionalimage": [{
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/2/optimized/8305682_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "2/optimized/8305682_fpx",
+                        "sequenceNumber": 1
+                    }],
+                    "upcprimaryimage": {
+                        "imagetype": "UPC_PRIMARY_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/8/optimized/8305668_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "8/optimized/8305668_fpx",
+                        "sequenceNumber": 1
+                    },
+                    "swatchsequencenumber": 0,
+                    "swapoutsequencenumber": 1,
+                    "swatchimage": {
+                        "imagetype": "SWATCH",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/swatches/1/optimized/8306081_fpx.tif?wid=57&amp;fmt=jpeg",
+                        "imagename": "1/optimized/8306081_fpx",
+                        "sequenceNumber": 1
+                    }
+                }, {
+                    "type": "colorwayImage",
+                    "imagetype": "COLORWAY",
+                    "id": 2792503,
+                    "colornormal": "Yellow",
+                    "color": "Popcorn",
+                    "upcadditionalimage": [{
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/4/optimized/8394014_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "4/optimized/8394014_fpx",
+                        "sequenceNumber": 1
+                    }],
+                    "upcprimaryimage": {
+                        "imagetype": "UPC_PRIMARY_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/2/optimized/8394012_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "2/optimized/8394012_fpx",
+                        "sequenceNumber": 0
+                    },
+                    "swatchsequencenumber": 0,
+                    "swapoutsequencenumber": 4,
+                    "swatchimage": {
+                        "imagetype": "SWATCH",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/swatches/3/optimized/8394013_fpx.tif?wid=57&amp;fmt=jpeg",
+                        "imagename": "3/optimized/8394013_fpx",
+                        "sequenceNumber": 1
+                    }
+                }, {
+                    "type": "colorwayImage",
+                    "imagetype": "COLORWAY",
+                    "id": 2813622,
+                    "colornormal": "Orange",
+                    "color": "Coral Mult",
+                    "upcadditionalimage": [{
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/9/optimized/8382829_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "9/optimized/8382829_fpx",
+                        "sequenceNumber": 1
+                    }],
+                    "upcprimaryimage": {
+                        "imagetype": "UPC_PRIMARY_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/8/optimized/8382828_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "8/optimized/8382828_fpx",
+                        "sequenceNumber": 0
+                    },
+                    "swatchsequencenumber": 0,
+                    "swapoutsequencenumber": 7,
+                    "swatchimage": {
+                        "imagetype": "SWATCH",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/swatches/1/optimized/8382761_fpx.tif?wid=57&amp;fmt=jpeg",
+                        "imagename": "1/optimized/8382761_fpx",
+                        "sequenceNumber": 0
+                    }
+                }, {
+                    "type": "colorwayImage",
+                    "imagetype": "COLORWAY",
+                    "id": 2825863,
+                    "colornormal": "Blue",
+                    "color": "Lagoon Mul",
+                    "upcadditionalimage": [{
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/9/optimized/8420059_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "9/optimized/8420059_fpx",
+                        "sequenceNumber": 1
+                    }],
+                    "upcprimaryimage": {
+                        "imagetype": "UPC_PRIMARY_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/8/optimized/8420058_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "8/optimized/8420058_fpx",
+                        "sequenceNumber": 0
+                    },
+                    "swatchsequencenumber": 0,
+                    "swapoutsequencenumber": 12,
+                    "swatchimage": {
+                        "imagetype": "SWATCH",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/swatches/8/optimized/8420108_fpx.tif?wid=57&amp;fmt=jpeg",
+                        "imagename": "8/optimized/8420108_fpx",
+                        "sequenceNumber": 1
+                    }
+                }],
+                "price": {
+                    "regular": {
+                        "value": 119.0
+                    },
+                    "pricetype": "Ticket",
+                    "pricetypeid": 0,
+                    "onsale": false,
+                    "onEdv": false,
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "category": [{
+                    "id": 5449,
+                    "type": "homecategory"
+                }],
+                "badges": {
+                    "promotionbadge": ["EXTRA 30% OFF USE: FRIEND", "FREE SHIP AT $49"],
+                    "promotionbadges": [{
+                        "badge": "EXTRA 30% OFF USE: FRIEND",
+                        "selectColor": false
+                    }, {
+                        "badge": "FREE SHIP AT $49",
+                        "selectColor": false
+                    }],
+                    "new": false,
+                    "Rebate": false,
+                    "onsale": false
+                }
+            }, {
+                "id": 4472806,
+                "summary": {
+                    "name": "Vince Camuto Floral-Print Flyaway Shift Dress",
+                    "producttype": "DRESS",
+                    "brand": "Vince Camuto",
+                    "onsale": false,
+                    "producturl": "http://www1.macys.com/shop/product/vince-camuto-floral-print-flyaway-shift-dress?ID=4472806",
+                    "iscollection": false,
+                    "available": true,
+                    "customerrating": 4.75,
+                    "productstartdays": 68,
+                    "totalreviews": 8
+                },
+                "image": [{
+                    "imagetype": "PRIMARY_IMAGE",
+                    "imageurl": "https://slimages.macys.com/is/image/MCY/products/3/optimized/8319413_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                    "imagename": "3/optimized/8319413_fpx",
+                    "colorized": true,
+                    "sequenceNumber": 0,
+                    "hasMoreColors": false,
+                    "numberColors": 1,
+                    "isPrimaryImage": true
+                }, {
+                    "imagetype": "ADDITIONAL_IMAGE",
+                    "imageurl": "https://slimages.macys.com/is/image/MCY/products/0/optimized/8319420_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                    "imagename": "0/optimized/8319420_fpx",
+                    "sequenceNumber": 0
+                }, {
+                    "type": "colorwayImage",
+                    "imagetype": "COLORWAY",
+                    "id": 2687361,
+                    "colornormal": "Multi",
+                    "color": "Blush/Blue",
+                    "upcadditionalimage": [{
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/0/optimized/8319420_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "0/optimized/8319420_fpx",
+                        "sequenceNumber": 1
+                    }],
+                    "upcprimaryimage": {
+                        "imagetype": "UPC_PRIMARY_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/3/optimized/8319413_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "3/optimized/8319413_fpx",
+                        "sequenceNumber": 1
+                    },
+                    "swatchsequencenumber": 0,
+                    "swapoutsequencenumber": 0,
+                    "swatchimage": {
+                        "imagetype": "SWATCH",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/swatches/4/optimized/8319424_fpx.tif?wid=57&amp;fmt=jpeg",
+                        "imagename": "4/optimized/8319424_fpx",
+                        "sequenceNumber": 1
+                    }
+                }],
+                "price": {
+                    "regular": {
+                        "value": 168.0
+                    },
+                    "pricetype": "Ticket",
+                    "pricetypeid": 0,
+                    "onsale": false,
+                    "onEdv": false,
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "category": [{
+                    "id": 5449,
+                    "type": "homecategory"
+                }],
+                "badges": {
+                    "promotionbadge": ["EXTRA 30% OFF USE: FRIEND", "FREE SHIP AT $49"],
+                    "promotionbadges": [{
+                        "badge": "EXTRA 30% OFF USE: FRIEND",
+                        "selectColor": false
+                    }, {
+                        "badge": "FREE SHIP AT $49",
+                        "selectColor": false
+                    }],
+                    "new": false,
+                    "Rebate": false,
+                    "onsale": false
+                }
+            }, {
+                "id": 4429042,
+                "summary": {
+                    "name": "Lauren Ralph Lauren Crepe A-Line Dress",
+                    "producttype": "DRESS",
+                    "brand": "Lauren Ralph Lauren",
+                    "onsale": false,
+                    "producturl": "http://www1.macys.com/shop/product/lauren-ralph-lauren-crepe-a-line-dress?ID=4429042",
+                    "iscollection": false,
+                    "available": true,
+                    "customerrating": 4.6667,
+                    "productstartdays": 131,
+                    "totalreviews": 3
+                },
+                "image": [{
+                    "imagetype": "PRIMARY_IMAGE",
+                    "imageurl": "https://slimages.macys.com/is/image/MCY/products/5/optimized/8197235_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                    "imagename": "5/optimized/8197235_fpx",
+                    "colorized": true,
+                    "sequenceNumber": 0,
+                    "hasMoreColors": true,
+                    "numberColors": 2,
+                    "isPrimaryImage": true
+                }, {
+                    "imagetype": "ADDITIONAL_IMAGE",
+                    "imageurl": "https://slimages.macys.com/is/image/MCY/products/7/optimized/8197237_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                    "imagename": "7/optimized/8197237_fpx",
+                    "sequenceNumber": 0
+                }, {
+                    "imagetype": "ADDITIONAL_IMAGE",
+                    "imageurl": "https://slimages.macys.com/is/image/MCY/products/8/optimized/8197238_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                    "imagename": "8/optimized/8197238_fpx",
+                    "sequenceNumber": 1
+                }, {
+                    "imagetype": "ADDITIONAL_IMAGE",
+                    "imageurl": "https://slimages.macys.com/is/image/MCY/products/9/optimized/8197239_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                    "imagename": "9/optimized/8197239_fpx",
+                    "sequenceNumber": 2
+                }, {
+                    "type": "colorwayImage",
+                    "imagetype": "COLORWAY",
+                    "id": 2670846,
+                    "colornormal": "Blue",
+                    "color": "Navy / Colonial Cream",
+                    "upcadditionalimage": [{
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/7/optimized/8197237_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "7/optimized/8197237_fpx",
+                        "sequenceNumber": 1
+                    }, {
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/9/optimized/8197239_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "9/optimized/8197239_fpx",
+                        "sequenceNumber": 1
+                    }, {
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/8/optimized/8197238_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "8/optimized/8197238_fpx",
+                        "sequenceNumber": 2
+                    }],
+                    "upcprimaryimage": {
+                        "imagetype": "UPC_PRIMARY_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/5/optimized/8197235_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "5/optimized/8197235_fpx",
+                        "sequenceNumber": 0
+                    },
+                    "swatchsequencenumber": 0,
+                    "swapoutsequencenumber": 0,
+                    "swatchimage": {
+                        "imagetype": "SWATCH",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/swatches/6/optimized/8197236_fpx.tif?wid=57&amp;fmt=jpeg",
+                        "imagename": "6/optimized/8197236_fpx",
+                        "sequenceNumber": 1
+                    }
+                }, {
+                    "type": "colorwayImage",
+                    "imagetype": "COLORWAY",
+                    "id": 2791749,
+                    "colornormal": "White",
+                    "color": "White/red/multi",
+                    "upcadditionalimage": [{
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/8/optimized/8420188_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "8/optimized/8420188_fpx",
+                        "sequenceNumber": 1
+                    }, {
+                        "imagetype": "UPC_ADDITIONAL_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/9/optimized/8420189_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "9/optimized/8420189_fpx",
+                        "sequenceNumber": 2
+                    }],
+                    "upcprimaryimage": {
+                        "imagetype": "UPC_PRIMARY_IMAGE",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/products/6/optimized/8420186_fpx.tif?bgc=255,255,255&wid=320&qlt=90&layer=comp&op_sharpen=0&resMode=bicub&op_usm=0.7,1.0,0.5,0&fmt=jpeg",
+                        "imagename": "6/optimized/8420186_fpx",
+                        "sequenceNumber": 0
+                    },
+                    "swatchsequencenumber": 0,
+                    "swapoutsequencenumber": 1,
+                    "swatchimage": {
+                        "imagetype": "SWATCH",
+                        "imageurl": "https://slimages.macys.com/is/image/MCY/swatches/7/optimized/8420187_fpx.tif?wid=57&amp;fmt=jpeg",
+                        "imagename": "7/optimized/8420187_fpx",
+                        "sequenceNumber": 1
+                    }
+                }],
+                "price": {
+                    "regular": {
+                        "value": 155.0
+                    },
+                    "pricetype": "Ticket",
+                    "pricetypeid": 0,
+                    "onsale": false,
+                    "onEdv": false,
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "category": [{
+                    "id": 5449,
+                    "type": "homecategory"
+                }],
+                "badges": {
+                    "promotionbadge": ["EXTRA 30% OFF USE: FRIEND", "FREE SHIP AT $49"],
+                    "promotionbadges": [{
+                        "badge": "EXTRA 30% OFF USE: FRIEND",
+                        "selectColor": false
+                    }, {
+                        "badge": "FREE SHIP AT $49",
+                        "selectColor": false
+                    }],
+                    "new": false,
+                    "Rebate": false,
+                    "onsale": false
+                }
+            }]
+        },
+        "bopsfacetavailable": false
+    }]
+}

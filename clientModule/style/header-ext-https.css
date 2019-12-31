@@ -1,0 +1,1067 @@
+/* line 1, ../../../../src/mcom/components/header/header-ext.scss */
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* line 6, ../../../../src/mcom/components/header/header-ext.scss */
+header * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+/* line 1, ../../../../src/mcom/components/header/_header-base.scss */
+header {
+    height: 210px !important;
+    background: url("//www.macys.com/web20/assets/img/nav/header-bottom-gradient.png") no-repeat center bottom;
+}
+/* line 4, ../../../../src/mcom/components/header/_header-base.scss */
+header nav#topnav {
+    width: 100%;
+    background-color: #F2F2F2;
+    height: 42px;
+}
+/* line 8, ../../../../src/mcom/components/header/_header-base.scss */
+header nav#topnav ul {
+    width: 960px;
+    height: 42px;
+    margin: 0 auto;
+    padding: 0px;
+    background-image: none;
+}
+/* line 16, ../../../../src/mcom/components/header/_header-base.scss */
+header nav#topnav ul li {
+    float: left;
+    list-style: none;
+}
+/* line 19, ../../../../src/mcom/components/header/_header-base.scss */
+header nav#topnav ul li a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    padding: 8px 7px;
+    line-height: 38px;
+    color: #333333;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/* line 29, ../../../../src/mcom/components/header/_header-base.scss */
+header nav#topnav ul li a.selected {
+    font-weight: normal;
+}
+/* line 32, ../../../../src/mcom/components/header/_header-base.scss */
+header nav#topnav ul li a:hover {
+    text-decoration: underline;
+}
+/* line 36, ../../../../src/mcom/components/header/_header-base.scss */
+header nav#topnav ul li:first-child a {
+    padding: 0 7px 0 0px;
+}
+/* line 42, ../../../../src/mcom/components/header/_header-base.scss */
+header #nav-search-box #globalSearchInputContainer {
+    width: 400px;
+    height: 37px;
+    padding: 0px;
+    margin: 21px 0px 0px 37px;
+    float: left;
+}
+/* line 49, ../../../../src/mcom/components/header/_header-base.scss */
+header #nav-search-box #subnavSearchSubmit {
+    height: 35px;
+    width: 38px;
+    margin-top: 21px;
+    margin-left: -1px;
+    background-color: #CC0000;
+    border-color: #CC0000;
+    border-width: 0px;
+    float: left;
+    cursor: pointer;
+    background: url("//www.macys.com/web20/assets/img/nav/header-search-button.gif") no-repeat rgba(0, 0, 0, 0);
+    background-size: 38px 35px;
+}
+/* line 62, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadSearchMenu {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 15px;
+    height: 95px;
+}
+/* line 68, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadSearchMenu div.left {
+    float: left;
+}
+/* line 71, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadSearchMenu #globalMastheadBrandLogo div {
+    width: 268px;
+    height: 73px;
+    /*background: url("//www.macys.com/web20/assets/img/nav/global-icons.png") -27px -124px;*/
+    background: url("https://assets.macysassets.com/dyn_img/creativepages/top_navigation_macys_logo.svg");
+}
+/* line 78, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadSearchMenu #nav-search-box form span {
+    display: block;
+    float: left;
+    margin-top: 21px;
+    height: 37px;
+    width: 400px;
+}
+/* line 84, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadSearchMenu #nav-search-box form span input#globalSearchInputField {
+    width: 400px;
+    height: 35px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    margin: 0px !important;
+    /* overrides standard.css legacy */
+    border-radius: 0px;
+    float: left;
+    border: 1px #c2c2c2 solid;
+    border-right-width: 0px;
+    font-family: Arial, Helvetica, Verdana, sans serif;
+    font-size: 16px;
+    color: #8C8C8C;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 35px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/* line 104, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadSearchMenu #nav-search-box form span input#globalSearchInputField :focus {
+    outline: none;
+    -moz-box-shadow: 0 0 4px #cccccc;
+    -webkit-box-shadow: 0 0 4px #cccccc;
+    box-shadow: 0 0 4px #cccccc;
+}
+/* line 116, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadBag {
+    display: block;
+    position: relative;
+    height: 68px;
+    width: 150px;
+    float: right;
+    padding: 0px;
+    margin: 0px 8px 0px 0px;
+    overflow: visible;
+}
+/* line 125, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadBag div.shadowQB {
+    -webkit-box-shadow: 1px 2px 5px #aaaaaa;
+    -moz-box-shadow: 1px 2px 5px 0 #aaaaaa;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Color=#AAAAAA, Direction=135,Strength=3);";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#AAAAAA, Direction=135,Strength=3);
+}
+/* line 131, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadBag div#globalMastheadBagTab {
+    position: relative;
+    border: 1px #cccccc solid;
+    border-bottom-width: 0px;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    visibility: hidden;
+    height: 43px;
+    width: 159px;
+    -webkit-box-shadow: 1px 2px 5px #aaaaaa;
+    -moz-box-shadow: 1px 2px 5px 0 #aaaaaa;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Color=#AAAAAA, Direction=135,Strength=3);";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#AAAAAA, Direction=135,Strength=3);
+    overflow: visible;
+}
+/* line 145, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadBag div#globalMastheadBagTab.open {
+    visibility: visible;
+}
+header #navAdTwo {
+    display: none;
+}
+/* line 149, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadBag div#globalMastheadQuickBagHeader {
+    position: absolute;
+    left: 1px;
+    height: 60px;
+    width: 157px;
+    padding-right: 6px;
+    top: 0px;
+    text-align: right;
+    line-height: 0px;
+    z-index: 1020;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+/* line 161, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadBag div#globalMastheadQuickBagHeader.open {
+    height: 64px;
+    border-bottom: 3px solid white;
+}
+/* line 165, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadBag div#globalMastheadQuickBagHeader a#checkoutLink {
+    text-decoration: none;
+    line-height: 20px;
+    padding-top: 5px;
+    vertical-align: top;
+    display: block;
+    float: right;
+    margin-top: 24px;
+    margin-right: 6px;
+}
+/* line 174, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadBag div#globalMastheadQuickBagHeader a#checkoutLink span {
+    color: #333333 !important;
+    font-size: 14px;
+}
+/* line 175, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadBag div#globalMastheadQuickBagHeader a#checkoutLink span#itemInfo {
+    font-weight: normal;
+    text-transform: capitalize;
+    color: #333333;
+}
+/* line 182, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadBag div#globalMastheadQuickBagHeader a#bagLink {
+    float: right;
+}
+/* line 184, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadBag div#globalMastheadQuickBagHeader a#bagLink div.globalMastheadBagIcon {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 0px;
+    width: 45px;
+    height: 67px;
+    background: url("//www.macys.com/web20/assets/img/nav/global-icons.png") no-repeat -160px -2px;
+}
+/* line 196, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadCategoryMenu {
+    background-color: #000000;
+    height: 37px;
+    overflow: hidden;
+}
+/* line 200, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadCategoryMenu > ul {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0px;
+    height: 37px;
+}
+/* line 205, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadCategoryMenu > ul > li {
+    margin-left: 0px;
+    float: left;
+    list-style: none;
+    height: 37px;
+    margin-right: 2px;
+    padding-top: 12px;
+}
+/* line 212, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadCategoryMenu > ul > li > a {
+    color: #FFFFFF;
+    font-family: 'Avenir Black','Arial Bold','Helvetica Bold',sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0px 6px 6px;
+    display: block;
+}
+/* line 221, ../../../../src/mcom/components/header/_header-base.scss */
+header #globalMastheadCategoryMenu > ul > li > a:hover {
+    color: #999;
+}
+/*BEGIN Secondary Nav*/
+header #featureNav ul {
+    width:960px;
+    height:37px;
+    margin:0 auto
+}
+header #featureNav ul li {
+    list-style:none;
+    float:right;
+    padding-right:15px;
+    height:37px
+}
+header #featureNav ul li > a {
+    display:block;
+    color:#333;
+    text-decoration:none;
+    font-size:14px;
+    padding-top:6px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style:italic;
+    text-transform:capitalize
+}
+header #featureNav ul li:first-child {
+    padding-right:0
+}
+.secondaryBolder {
+    font-weight: 500;
+    letter-spacing: -0.03em;
+}
+/*END Secondary Nav*/
+
+/* line 250, ../../../../src/mcom/components/header/_header-base.scss */
+.hidden {
+    display: none;
+}
+
+/* line 253, ../../../../src/mcom/components/header/_header-base.scss */
+.clear {
+    clear: both !important;
+}
+
+/* line 66, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-off {
+    display: none;
+}
+/* line 71, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-off div div ul li {
+    list-style: none !important;
+}
+/* line 78, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-on {
+    -webkit-box-shadow: rgba(51, 51, 51, 0.4) 0 10px 15px;
+    -moz-box-shadow: rgba(51, 51, 51, 0.4) 0 10px 15px;
+    box-shadow: rgba(51, 51, 51, 0.4) 0 10px 15px;
+    min-height: 396px;
+    background-color: #FFFFFF;
+    width: 914px;
+    position: absolute;
+    z-index: 200000;
+    top: 177px;
+    padding-bottom: 16px;
+    text-align: left;
+}
+/* line 95, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-on div {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    *zoom: 1;
+}
+/* line 101, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-on div div {
+    position: relative;
+    padding-left: 12px;
+    width: 25%;
+    float: left;
+    min-height: 396px;
+    background: url("//www.macys.com/web20/assets/img/nav/header-flyoutout-verticalRule.jpg") no-repeat;
+    background-size: auto 100%;
+    background-position: 0px 16px;
+}
+/* line 111, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-on div div ul {
+    margin-left: 0px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+/* line 115, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-on div div ul li {
+    list-style: none !important;
+    line-height: 24px;
+    font-size: 11px;
+}
+/* line 119, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-on div div ul li a, div#globalMastheadFlyout div.flyout-on div div ul li a:active, div#globalMastheadFlyout div.flyout-on div div ul li a:visited {
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+    font-family: arial, sans-serif !important;
+}
+/* line 125, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-on div div ul li a:hover {
+    text-decoration: underline;
+}
+/* line 128, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-on div div ul li a.special {
+    font-weight: bold;
+    font-size: 14px;
+    color: #CC0000;
+}
+/* line 134, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-on div div ul li label {
+    font-weight: bold;
+    font-size: 16px;
+}
+/* line 140, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-on div div ul.grid {
+    overflow: hidden;
+}
+/* line 143, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-on div div ul.grid > li:first-child {
+    float: none;
+}
+/* line 146, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-on div div ul.grid > li {
+    width: 45px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* line 152, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-on div div ul.grid > li a:hover {
+    color: red;
+}
+/* line 157, ../../../../src/mcom/components/flyout/flyout-base.scss */
+div#globalMastheadFlyout div.flyout-on div div:first-child {
+    background-image: none;
+}
+
+/* line 11, ../../../../src/mcom/components/flyout/flyout-base.scss */
+header#globalMastheadContainer div > ul.nav-pills > li.globalMastheadCategorySelected, header#globalMastheadContainer div.macysDynFlyout > ul > li.globalMastheadCategorySelected {
+    background-color: #4D4D4D;
+    -moz-box-shadow: inset 0 3px 6px #2e2e2e;
+    -webkit-box-shadow: inset 0 3px 6px #2e2e2e;
+    box-shadow: inset 0 3px 6px #2e2e2e;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* line 19, ../../../../src/mcom/components/flyout/flyout-base.scss */
+header#globalMastheadContainer div#globalMastheadCategoryMenu > ul > li > a {
+    text-transform: uppercase;
+}
+/* line 22, ../../../../src/mcom/components/flyout/flyout-base.scss */
+header#globalMastheadContainer div.macysDynFlyout {
+    width: 100%;
+    background-color: #000000;
+    height: 40px;
+}
+/* line 26, ../../../../src/mcom/components/flyout/flyout-base.scss */
+header#globalMastheadContainer div.macysDynFlyout > ul > li {
+    float: left;
+    height: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    list-style: none;
+    line-height: 16px !important;
+}
+/* line 36, ../../../../src/mcom/components/flyout/flyout-base.scss */
+header#globalMastheadContainer div.macysDynFlyout > ul > li > a {
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: normal;
+}
+/* line 43, ../../../../src/mcom/components/flyout/flyout-base.scss */
+header#globalMastheadContainer div.macysDynFlyout > ul > li.selected-flyout {
+    opacity: 1;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #999999), color-stop(18%, #ffffff));
+    background-image: -webkit-linear-gradient(#999999, #ffffff 18%);
+    background-image: -moz-linear-gradient(#999999, #ffffff 18%);
+    background-image: -o-linear-gradient(#999999, #ffffff 18%);
+    background-image: linear-gradient(#999999, #ffffff 18%);
+}
+/* line 51, ../../../../src/mcom/components/flyout/flyout-base.scss */
+header#globalMastheadContainer div.macysDynFlyout > ul > li.selected-flyout > a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal !important;
+    color: black !important;
+}
+
+/* line 11, ../../../../src/mcom/components/flyout/flyout_ext.scss */
+div#globalMastheadFlyout div.flyout-on {
+    font-family: arial, Helvetica, sans-serif;
+}
+/* line 13, ../../../../src/mcom/components/flyout/flyout_ext.scss */
+div#globalMastheadFlyout div.flyout-on label {
+    font-family: arial, Helvetica, sans-serif;
+}
+
+/* line 24, ../../../../src/mcom/components/flyout/flyout_ext.scss */
+div#globalMastheadFlyout div.flyout-on div div ul {
+    padding-left: 0px !important;
+}
+
+/* =====================================================================
+autocomplete
+===================================================================== */
+/* line 4, ../../../../src/mcom/components/header/autocomplete.scss */
+ul.ui-autocomplete.ui-widget-content {
+    background: white;
+    -webkit-box-shadow: 0 10px 22px #757575, 0px 10px 10px -10px #cccccc inset;
+    -moz-box-shadow: 0 10px 22px #757575, 0px 10px 10px -10px #cccccc inset;
+    box-shadow: 0 10px 22px #757575, 0px 10px 10px -10px #cccccc inset;
+    height: auto;
+    margin-top: 0;
+    padding: 0px;
+    position: absolute;
+    width: 398px !important;
+    font-size: 16px;
+    font-family: Arial;
+    border-left: 1px solid #b8b8b8;
+    border-right: 1px solid #b8b8b8;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+/* line 23, ../../../../src/mcom/components/header/autocomplete.scss */
+ul.ui-autocomplete.ui-widget-content li.ui-menu-item, .ui-state-focus {
+    float: left;
+    height: auto;
+    list-style: none outside none;
+    line-height: 30px;
+    width: 397px;
+}
+
+/* line 31, ../../../../src/mcom/components/header/autocomplete.scss */
+ul.ui-autocomplete.ui-widget-content li.ui-menu-item:first-child {
+    margin-top: 10px;
+}
+
+/* line 35, ../../../../src/mcom/components/header/autocomplete.scss */
+ul.ui-autocomplete.ui-widget-content li.ui-menu-item:last-child {
+    margin-bottom: 10px;
+}
+
+/* line 39, ../../../../src/mcom/components/header/autocomplete.scss */
+ul.ui-autocomplete.ui-widget-content li.ui-menu-item:hover {
+    background: #EEEEEE;
+    color: #000;
+}
+
+/* line 44, ../../../../src/mcom/components/header/autocomplete.scss */
+ul.ui-autocomplete.ui-widget-content li.ui-menu-item .suggestion {
+    padding: 7.5px 8px;
+    position: relative;
+    width: 380px;
+}
+
+/* line 50, ../../../../src/mcom/components/header/autocomplete.scss */
+ul.ui-autocomplete.ui-widget-content li.ui-menu-item .suggestion:focus {
+    background: #EEEEEE;
+}
+
+/* line 54, ../../../../src/mcom/components/header/autocomplete.scss */
+ul.ui-autocomplete.ui-widget-content li.ui-menu-item a {
+    font-size: 16px !important;
+    font-family: Arial !important;
+    color: #666;
+    text-decoration: none;
+    display: block;
+    padding: 0px;
+    line-height: 15px;
+    min-height: 0;
+    /* support: IE7 */
+    font-weight: normal;
+    word-wrap: break-word;
+    text-align: left;
+    width: 100%;
+    margin-left: 1px;
+}
+
+/* line 71, ../../../../src/mcom/components/header/autocomplete.scss */
+.globalSearchInputField.ui-autocomplete-input.ui-autocomplete-loading:focus {
+    color: black !important;
+    font-style: normal !important;
+}
+
+/* line 76, ../../../../src/mcom/components/header/autocomplete.scss */
+ul.ui-autocomplete.ui-widget-content li.ui-menu-item a:hover {
+    color: #000;
+    line-height: 15px;
+}
+
+/* line 81, ../../../../src/mcom/components/header/autocomplete.scss */
+.ui-state-focus {
+    background: #EEEEEE;
+    width: 100%;
+}
+
+/* line 86, ../../../../src/mcom/components/header/autocomplete.scss */
+.ui-keyword-highlight {
+    font-weight: bold;
+    color: #000;
+}
+
+/* line 1, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer {
+    background-color: #EBEBEB;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+/* line 5, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.text, footer div.social {
+    float: left;
+}
+/* line 8, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div[class*='social-'] {
+    margin-right: 3px;
+    float: left;
+}
+/* line 12, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.text, footer div[class*='base-'] {
+    float: left;
+}
+/* line 15, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.text {
+    margin-left: 5px;
+}
+/* line 19, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer li.social {
+    clear: both;
+}
+/* line 22, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer li.mobileapps {
+    margin-top: 35px;
+    font-size: 11px;
+}
+/* line 26, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer li.email {
+    margin-top: 10px;
+    font-size: 11px;
+}
+/* line 29, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer li.email div.base-email {
+    margin-top: 7px;
+}
+/* line 33, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.top {
+    height: 5px;
+    background: url(//www.macys.com/web20/assets/img/nav/footer_top_gradient.jpg) no-repeat top center;
+}
+/* line 37, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.bottom {
+    height: 5px;
+    background: url("//www.macys.com/web20/assets/img/nav/footer_bottom_gradient.jpg") no-repeat bottom center;
+}
+/* line 45, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.accessible {
+    margin-bottom: 15px;
+}
+/* line 48, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.accessible a img {
+    background-image: url("//www.macys.com/web20/assets/img/nav/global-icons.png");
+    background-repeat: no-repeat;
+    background-position: -28px -2px;
+    width: 124px;
+    height: 25px;
+}
+/* line 56, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.accessible span {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    line-height: 16px !important;
+    color: #333333 !important;
+    float: left;
+}
+/* line 62, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.accessible span a, footer div.accessible span a:active, footer div.accessible span a:visited {
+    text-decoration: none !important;
+    color: #333333 !important;
+}
+/* line 66, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.accessible span a:hover {
+    text-decoration: underline;
+}
+/* line 71, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.accessible span.link {
+    margin-left: 10px;
+}
+/* line 75, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.copyright {
+    margin: 0 auto;
+    padding-top: 12px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+/* line 82, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.copyright p {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    line-height: 16px !important;
+    color: #333333 !important;
+}
+/* line 88, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.copyright p a, footer div.copyright p a:active, footer div.copyright p a:visited {
+    text-decoration: none;
+    color: #333333 !important;
+    margin-right: 8px;
+}
+/* line 92, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.copyright p a:hover {
+    text-decoration: underline;
+}
+/* line 97, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer ul {
+    margin-left: 0;
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 1.25em;
+    list-style-position: outside;
+    font-family: inherit;
+    padding: 0;
+    direction: ltr;
+}
+/* line 108, ../../../../src/mcom/components/footer/footer-ext.scss */
+/*Commenting out because no diff between macys-base.css*/
+/*footer li, footer label {
+    text-decoration: none;
+    line-height: inherit;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 26px;
+    list-style: none !important;
+    color: #3f3f3f !important;
+}*/
+/* line 117, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer li.title, footer label, footer li > a.title {
+    font-size: 12px;
+}
+/* line 120, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer a, footer a:active, footer a:visited, footer li > nobr {
+    color: #3f3f3f !important;
+}
+/* line 124, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.col1 {
+    position: relative;
+    width: 17%;
+}
+/* line 128, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.col2 {
+    position: relative;
+    width: 17%;
+}
+/* line 132, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.col3 {
+    position: relative;
+}
+    width: 15%;
+/* line 136, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.col4 {
+    position: relative;
+    width: 11%;
+}
+/* line 140, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.col5 {
+    position: relative;
+    width: 16%;
+}
+/* line 144, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.col6 {
+    position: relative;
+    width: 24%;
+}
+div.mobileapps {
+    background: url("https://assets.macysassets.com/navapp/web20/assets/img/nav/global-icons.png") no-repeat -2px -133px;
+}
+div.email {
+    background: url("https://assets.macysassets.com/navapp/web20/assets/img/nav/global-icons.png") no-repeat -2px -117px;
+}
+/* line 148, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 100%;
+}
+/* line 156, ../../../../src/mcom/components/footer/footer-ext.scss */
+footer div.columns {
+    position: relative;
+    padding-left: 0.03571em;
+    padding-right: 0.03571em;
+    float: left;
+}
+
+/* line 202, common/icons/social/*.png */
+social, .social-email-huge, .social-email-large, .social-email-medium, .social-email-small, .social-facebook-huge, .social-facebook-large, .social-facebook-medium, .social-facebook-small, .social-mblog, .social-pinterest-huge, .social-pinterest-large, .social-pinterest-medium, .social-pinterest-small, .social-twitter-huge, .social-twitter-large, .social-twitter-medium, .social-twitter-small, .social-youtube-huge, .social-youtube-large, .social-youtube-medium, .social-youtube-small {
+    background: url('https://secure-netstorage.macys.com/netstorage/img/sprites/social-s44bdf7a63e.png') no-repeat;
+}
+
+/* line 186, common/icons/base/*.png */
+base, .base-black-arrow-left-huge, .base-black-arrow-left-large, .base-black-arrow-left-medium, .base-black-arrow-left-small, .base-black-arrow-right-huge, .base-black-arrow-right-large, .base-black-arrow-right-medium, .base-black-arrow-right-small, .base-email, .base-essential-accessibility, .base-mobile, .base-white-arrow-left-huge, .base-white-arrow-left-large, .base-white-arrow-left-medium, .base-white-arrow-left-small, .base-white-arrow-right-huge, .base-white-arrow-right-large, .base-white-arrow-right-medium, .base-white-arrow-right-small {
+    background: url('https://secure-netstorage.macys.com/netstorage/img/sprites/base-s7347ca5010.png') no-repeat;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-email-huge {
+    background-position: 0 -327px;
+    height: 21px;
+    width: 21px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-email-large {
+    background-position: 0 -163px;
+    height: 18px;
+    width: 18px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-email-medium {
+    background-position: 0 -349px;
+    height: 15px;
+    width: 15px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-email-small {
+    background-position: 0 -365px;
+    height: 13px;
+    width: 13px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-facebook-huge {
+    background-position: 0 -23px;
+    height: 21px;
+    width: 21px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-facebook-large {
+    background-position: 0 -67px;
+    height: 18px;
+    width: 18px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-facebook-medium {
+    background-position: 0 -86px;
+    height: 16px;
+    width: 16px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-facebook-small {
+    background-position: 0 -198px;
+    height: 13px;
+    width: 13px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-mblog {
+    background-position: 0 0;
+    height: 22px;
+    width: 24px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-pinterest-huge {
+    background-position: 0 -45px;
+    height: 21px;
+    width: 21px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-pinterest-large {
+    background-position: 0 -103px;
+    height: 18px;
+    width: 18px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-pinterest-medium {
+    background-position: 0 -212px;
+    height: 15px;
+    width: 15px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-pinterest-small {
+    background-position: 0 -283px;
+    height: 13px;
+    width: 13px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-twitter-huge {
+    background-position: 0 -242px;
+    height: 21px;
+    width: 21px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-twitter-large {
+    background-position: 0 -264px;
+    height: 18px;
+    width: 18px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-twitter-medium {
+    background-position: 0 -297px;
+    height: 15px;
+    width: 15px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-twitter-small {
+    background-position: 0 -313px;
+    height: 13px;
+    width: 13px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-youtube-huge {
+    background-position: 0 -122px;
+    height: 21px;
+    width: 21px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-youtube-large {
+    background-position: 0 -144px;
+    height: 18px;
+    width: 18px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-youtube-medium {
+    background-position: 0 -182px;
+    height: 15px;
+    width: 15px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-youtube-small {
+    background-position: 0 -228px;
+    height: 13px;
+    width: 13px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-black-arrow-left-huge {
+    background-position: 0 -74px;
+    height: 21px;
+    width: 21px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-black-arrow-left-large {
+    background-position: 0 -118px;
+    height: 18px;
+    width: 18px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-black-arrow-left-medium {
+    background-position: 0 -310px;
+    height: 15px;
+    width: 15px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-black-arrow-left-small {
+    background-position: 0 -238px;
+    height: 13px;
+    width: 13px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-black-arrow-right-huge {
+    background-position: 0 -137px;
+    height: 21px;
+    width: 21px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-black-arrow-right-large {
+    background-position: 0 -159px;
+    height: 18px;
+    width: 18px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-black-arrow-right-medium {
+    background-position: 0 -294px;
+    height: 15px;
+    width: 15px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-black-arrow-right-small {
+    background-position: 0 -280px;
+    height: 13px;
+    width: 13px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-email {
+    background-position: 0 -58px;
+    height: 15px;
+    width: 22px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-essential-accessibility {
+    background-position: 0 0;
+    height: 28px;
+    width: 173px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-mobile {
+    background-position: 0 -29px;
+    height: 28px;
+    width: 16px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-white-arrow-left-huge {
+    background-position: 0 -96px;
+    height: 21px;
+    width: 21px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-white-arrow-left-large {
+    background-position: 0 -178px;
+    height: 18px;
+    width: 18px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-white-arrow-left-medium {
+    background-position: 0 -326px;
+    height: 15px;
+    width: 15px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-white-arrow-left-small {
+    background-position: 0 -266px;
+    height: 13px;
+    width: 13px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-white-arrow-right-huge {
+    background-position: 0 -216px;
+    height: 21px;
+    width: 21px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-white-arrow-right-large {
+    background-position: 0 -197px;
+    height: 18px;
+    width: 18px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-white-arrow-right-medium {
+    background-position: 0 -342px;
+    height: 15px;
+    width: 15px;
+}
+
+/* line 60, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.base-white-arrow-right-small {
+    background-position: 0 -252px;
+    height: 13px;
+    width: 13px;
+}

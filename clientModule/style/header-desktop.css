@@ -1,0 +1,181 @@
+@media only screen and (max-width: 1024px) {
+    header #nav-search-box #subnavSearchSubmit {
+        margin-left: 4px;
+    }
+    header #globalMastheadSearchMenu #nav-search-box {
+        padding-left: 43px;
+    }
+    header {
+        height: 259px!important;
+    }
+    header #globalMastheadCategoryMenu {
+        height: 5em !important;
+        background-color: transparent !important;
+    }
+    header #globalMastheadCategoryMenu ul {
+        height: 5em;
+        width: auto;
+    }
+    header #globalMastheadCategoryMenu ul li {
+        height: 6em;
+        padding: 1.3em 0em 0em 0em!important;
+    }
+    div#globalMastheadFlyout div.flyout-on {
+        top: 201px !important;
+    }
+    header #globalMastheadCategoryMenu ul li {
+        height: 4em !important;
+        padding: 1.3em 0em 0em 0em!important;
+    }
+    header #globalMastheadBlackBg {
+        position: absolute;
+        height: 4em;
+        width: 100%;
+        min-width: 960px;
+        background: #000;
+    }
+    header #globalMastheadBag div#globalMastheadQuickBagHeader a#checkoutLink span#itemCount {
+        border-radius: 100%;
+        position: relative;
+        bottom: 1rem;
+        left: 4.1rem;
+        width: 1.35rem;
+        height: 1.35rem;
+        font-size: .75rem;
+        font-weight: 700px;
+        text-align: center;
+        display: block;
+        background-color: black;
+        color: #fff !important;
+    }
+    header #globalMastheadBag div#globalMastheadQuickBagHeader a#bagLink div.globalMastheadBagIcon {
+        background: url("https://www.macys.com/web20/assets/img/nav/tablet/bag.svg") no-repeat 0 0;
+        background-size: 2.7em 3.4em;
+    }
+    header #globalMastheadBag div#globalMastheadQuickBagHeader a#checkoutLink span {
+        color: #333 !important;
+    }
+    /*autosuggest*/
+    header #globalMastheadSearchMenu #nav-search-box form span input#globalSearchInputField {
+        font-style: normal;
+        width: 400px !important;
+        position: relative;
+        left: 1rem;
+        padding-right: 50px;
+        border-right-width: 1px;
+    }
+    ul.ui-autocomplete.ui-widget-content li.ui-menu-item,
+    .ui-state-focus {
+        width: 100%;
+    }
+    ul.ui-autocomplete.ui-widget-content li.ui-menu-item:last-child {
+        margin-bottom: 0px;
+    }
+    ul.ui-autocomplete.ui-widget-content li.ui-menu-item:first-child {
+        margin-top: 0px;
+    }
+    header #globalMastheadBag div#globalMastheadQuickBagHeader.open {
+        height: 64px;
+        border-bottom: 3px solid #FFF;
+    }
+    .ui-keyword-unhighlight {
+        color: #666 font-weight: normal;
+    }
+}
+
+header #globalMastheadSearchMenu #nav-search-box {
+    padding-left: 43px;
+}
+
+header #globalMastheadSearchMenu #nav-search-box form span {
+    width: 300px;
+}
+
+header #globalMastheadSearchMenu #nav-search-box form span input#globalSearchInputField {
+    width: 350px
+}
+
+header #nav-search-box #subnavSearchSubmit {
+    margin-left: 50px;
+}
+
+ul.ui-autocomplete.ui-widget-content li.ui-menu-item,
+.ui-state-focus {
+    width: 100%;
+}
+
+header #topnav #dropDownABTest {
+    background: url("https://www.macys.com/images/dropdown_active.svg") 108% center no-repeat;
+    width: 100px;
+}
+
+header #topnav #dropDownABTest a {
+    background: none;
+}
+
+header #topnav #dropDownABTest ul {
+    display: none;
+    background-image: none;
+}
+
+header #topnav #dropDownABTest ul li {
+    float: none;
+    display: block;
+    margin: 5px 0 5px 0;
+    background: none;
+}
+
+header #topnav #dropDownABTest ul li a {
+    display: block;
+    line-height: 25px;
+    margin: 0;
+    padding: 0 5px 0 5px;
+    background: none;
+}
+
+header #topnav #dropDownABTest ul li:hover {
+    text-decoration: none;
+    background-color: #f2f2f2;
+}
+
+header #topnav #dropDownABTest:hover ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 175px;
+    height: 190px;
+    position: absolute;
+    z-index: 999999;
+    border: 1px solid #a9a9a9;
+    background-color: #fff;
+}
+
+header #topnav #dropDownABTest:hover ul:after {
+    bottom: 100%;
+    left: 20%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(242, 242, 242, 0);
+    border-bottom-color: #f2f2f2;
+    border-width: 7px;
+    margin-left: -7px;
+}
+
+header #topnav #dropDownABTest:hover ul:before {
+    bottom: 100%;
+    left: 20%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(169, 169, 169, 0);
+    border-bottom-color: #a9a9a9;
+    border-width: 8px;
+    margin-left: -8px;
+}
