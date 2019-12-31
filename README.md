@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------------------------
-What is mew CE platform
+What is mobile enhanced web platform?
 -------------------------------------------------------------------------------------------------
-Creative Platform on MEW 2.0 that supports responsive/adaptive marketing content created by the Content Engineering team.
+Creative Platform on MEW 2.0 that supports responsive/adaptive marketing content.
  Folder
  -------
- ce/campaign- CE files are uploaded under this folder. Every campaign has it's own folder where all assets saved.
+ ce/campaign- CE files are uploaded under this folder. Every campaign has its own folder.
 
  Please remember folder name should be smaller case.
 
@@ -67,12 +67,11 @@ We are using the mobile library eluminate.js and the helper library called cmcus
 in clientModule/scripts/coremetrics.
 The functions that will post coremetrics tags are located in cmcustom-mcom.js file, and to enable this functionality
 there are the steps:
-1.- When you create a new pruject using grunt, you will notice the following entry in the <head> section:
+1.- When you create a new project using grunt, you will notice the following entry in the <head> section:
     {{>coremetricsHeader}}
    This will enable the coremetrics framework. Please review the file serverModule/expressTemplates/coremetricsHeader.hbs
    to make sure the constant data is ok, such as the coremetrics client id.
-2.- You can now add any coremetrics tag by adding a DOM event in the html tag, and then its attributes. These attributes can
-be added in the cmcustom-mcom.js file instead if the developer whats it that way.
+2.- You can now add any coremetrics tag by adding a DOM event in the html tag, and then its attributes. These attributes can be added in the cmcustom-mcom.js file instead if desired.
 some examples are:
 
  <a href="#" onclick="javascript:cmCreateLinkClickTag('PageID','Name','/target','/currentpage','/referingurl')">Click me</a>
