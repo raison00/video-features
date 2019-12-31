@@ -2,14 +2,10 @@ NEW Video Features for MEW 2.0
 -----------
 
 
-What is the mobile enhanced web platform? It's the Creative Platform on MEW 2.0 that supports responsive/adaptive marketing content.
+What is the mobile enhanced web platform? It's the Creative Platform on MEW 2.0 that supports responsive/adaptive marketing content.  Here is a working directory of responsive video integration within the MEW 2.0 Creative Platform, the Legacy Platform, and the new workflows outside of the CI/CD pipelines - like Beauty Box which targets its own specific marketing platform and release schedule. 
 
+This code can also work on MAS systems and Marketing content integration across all technologies.
 
- Folder
- -------
- ce/campaign- CE files are uploaded under this folder. Every campaign has its own folder.
-
- Please remember folder name should be smaller case.
 
  clientModule
  -------------
@@ -75,10 +71,6 @@ there are the steps:
    This will enable the coremetrics framework. Please review the file serverModule/expressTemplates/coremetricsHeader.hbs
    to make sure the constant data is ok, such as the coremetrics client id.
 2.- You can now add any coremetrics tag by adding a DOM event in the html tag, and then its attributes. These attributes can be added in the cmcustom-mcom.js file instead if desired.
-some examples are:
-
- <a href="#" onclick="javascript:cmCreateLinkClickTag('PageID','Name','/target','/currentpage','/referingurl')">Click me</a>
- <img src="/assets/testCE/bops_01.gif" onclick="javascript:cmCreateLinkClickTag('pageIDForImage','link click for image','/assets/testCE/bops_01.gif','/currentpage','/refering
 
 
 ------------------------------------------------------------------------------------------------
