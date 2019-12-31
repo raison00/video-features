@@ -1,7 +1,10 @@
--------------------------------------------------------------------------------------------------
-What is mobile enhanced web platform?
--------------------------------------------------------------------------------------------------
-Creative Platform on MEW 2.0 that supports responsive/adaptive marketing content.
+NEW Video Features for MEW 2.0
+-----------
+
+
+What is the mobile enhanced web platform? It's the Creative Platform on MEW 2.0 that supports responsive/adaptive marketing content.
+
+
  Folder
  -------
  ce/campaign- CE files are uploaded under this folder. Every campaign has its own folder.
